@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -67,6 +67,22 @@ class AppRoutes {
   static const uiDriver = '/ui/driver';
   static const uiAccountCreated = '/ui/account-created';
   static const uiAccountDriver = '/ui/account-driver';
+
+  static const legacyUiRoutes = {
+    uiWelcome,
+    uiHome,
+    uiMessages,
+    uiVehicle1,
+    uiVehicle2,
+    uiPassword,
+    uiPasswordDriver,
+    uiOtpDriver,
+    uiAgent,
+    uiContractor,
+    uiDriver,
+    uiAccountCreated,
+    uiAccountDriver,
+  };
 }
 
 final routerNotifierProvider = Provider<RouterNotifier>((ref) {
@@ -215,25 +231,11 @@ class RouterNotifier extends ChangeNotifier {
     final authState = ref.read(authControllerProvider);
     final location = state.matchedLocation;
 
-    const devRoutes = {
-      AppRoutes.uiGallery,
-      AppRoutes.uiAccountDriver,
-      AppRoutes.uiWelcome,
-      AppRoutes.uiHome,
-      AppRoutes.uiMessages,
-      AppRoutes.uiVehicle1,
-      AppRoutes.uiVehicle2,
-      AppRoutes.uiPassword,
-      AppRoutes.uiPasswordDriver,
-      AppRoutes.uiOtpDriver,
-      AppRoutes.uiAgent,
-      AppRoutes.uiContractor,
-      AppRoutes.uiDriver,
-      AppRoutes.uiAccountCreated,
-    };
-
-    if (devRoutes.contains(location)) {
+    if (location == AppRoutes.uiGallery) {
       return null;
+    }
+    if (AppRoutes.legacyUiRoutes.contains(location)) {
+      return AppRoutes.uiGallery;
     }
 
     const publicRoutes = {
