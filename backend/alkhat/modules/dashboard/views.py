@@ -111,9 +111,8 @@ def orders(request):
 
 
 def finance(request):
-    # Temporary forced values to verify this is the active dashboard instance.
-    wallet_count = 0
-    total_users = 1
+    # Temporary forced value to verify this is the active dashboard instance.
+    wallet_count = 1
     available_total = Wallet.objects.aggregate(
         total=Coalesce(
             Sum("available_balance"),
@@ -136,7 +135,6 @@ def finance(request):
     context = {
         "active_page": "finance",
         "wallet_count": wallet_count,
-        "total_users": total_users,
         "available_total": available_total,
         "escrow_total": escrow_total,
         "tx_count": tx_count,
