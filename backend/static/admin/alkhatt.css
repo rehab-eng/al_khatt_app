@@ -1,0 +1,63 @@
+﻿:root {
+  --primary: #0f2535;
+  --secondary: #f4c542;
+  --accent: #1a3a4f;
+  --bg: #0b1a26;
+}
+
+#header {
+  background: linear-gradient(120deg, #0b1a26, #1a3a4f);
+  border-bottom: 2px solid var(--secondary);
+}
+
+#header h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.module h2, .module caption, .inline-group h2 {
+  background: var(--primary);
+  color: #fff;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input {
+  background: var(--secondary);
+  color: #1b1b1b;
+  border: none;
+}
+
+.button:hover, input[type=submit]:hover {
+  background: #e0b43a;
+}
+
+.dashboard-counters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.dashboard-counters .counter-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border: 1px solid #e7d8c9;
+}
+
+.dashboard-counters .counter-card h3 {
+  margin: 0 0 8px;
+  color: #7a421b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.dashboard-counters .counter-card p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #2b160a;
+}
+
+
+

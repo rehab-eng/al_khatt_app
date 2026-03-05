@@ -1,0 +1,533 @@
+import 'dart:ui' as ui;
+
+import 'package:flutter/material.dart';
+
+import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../../core/widgets/design_canvas.dart';
+
+class Vehicle1UiScreen extends StatelessWidget {
+  const Vehicle1UiScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Directionality(
+        textDirection: ui.TextDirection.rtl,
+        child: DesignCanvas(
+          child: Stack(
+            children: [
+              Positioned(
+                left: -179,
+                top: -355,
+                width: 845,
+                height: 1455,
+                child: Image.asset(
+                  'assets/alkhat/screens/vehicle_1_ui/assets/images/background.png',
+                  fit: BoxFit.cover,
+                ),
+              ),
+              Positioned(
+                left: 306.68,
+                top: 86.78,
+                width: 228.43,
+                height: 227.7,
+                child: Opacity(
+                  opacity: 0.15,
+                  child: SvgPicture.string(
+                    r'''<svg width="228.428" xmlns="http://www.w3.org/2000/svg" height="227.704" id="screenshot-b527cf84-f825-80eb-8006-f25457205dcd" viewBox="2060.682 4168.779 228.428 227.704" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+        <g id="shape-b527cf84-f825-80eb-8006-f25457205dcd">
+          <defs></defs>
+          <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dcd">
+            <path d="M2174.896484375,4168.779296875C2111.812255859375,4168.779296875,2060.68212890625,4219.7470703125,2060.68212890625,4282.63134765625C2060.68212890625,4345.515625,2111.812255859375,4396.4833984375,2174.896484375,4396.4833984375C2237.980712890625,4396.4833984375,2289.1103515625,4345.515625,2289.1103515625,4282.63134765625C2289.1103515625,4219.7470703125,2237.980712890625,4168.779296875,2174.896484375,4168.779296875ZM2174.896484375,4361.6494140625C2131.123779296875,4361.6494140625,2095.62744140625,4326.26611328125,2095.62744140625,4282.63134765625C2095.62744140625,4238.99658203125,2131.123779296875,4203.6123046875,2174.896484375,4203.6123046875C2218.669189453125,4203.6123046875,2254.166015625,4238.99658203125,2254.166015625,4282.63134765625C2254.166015625,4326.26611328125,2218.669189453125,4361.6494140625,2174.896484375,4361.6494140625Z" class="cls-2" style="fill:#000000;fill-opacity:0.5"></path>
+          </g>
+        </g>
+      </svg>''',
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 155.5,
+                top: 0,
+                width: 533.0,
+                height: 699.0,
+                child: Opacity(
+                  opacity: 0.15,
+                  child: SvgPicture.string(
+                    r'''<svg width="533" xmlns="http://www.w3.org/2000/svg" height="699" id="screenshot-b527cf84-f825-80eb-8006-f25457205dce" viewBox="1909.5 4082 533 699" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+        <g id="shape-b527cf84-f825-80eb-8006-f25457205dce">
+          <defs></defs>
+          <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dce">
+            <path d="M2364.456298828125,4159.79541015625C2316.209228515625,4111.701171875,2249.567626953125,4082,2176,4082C2028.802734375,4082,1909.5,4200.9248046875,1909.5,4347.654296875L1909.5,4515.345703125C1909.5,4662.0751953125,2028.802734375,4781,2176,4781C2323.197265625,4781,2442.5,4662.0751953125,2442.5,4515.345703125L2442.5,4347.654296875C2442.5,4274.2587890625,2412.6435546875,4207.890625,2364.456298828125,4159.79541015625ZM2343.18310546875,4676.25341796875C2333.741943359375,4685.9716796875,2323.381103515625,4694.77099609375,2312.406494140625,4702.71630859375C2302.291748046875,4709.9873046875,2291.501708984375,4716.52783203125,2280.22119140625,4722.08740234375C2248.893798828125,4737.73388671875,2213.5205078125,4746.47265625,2176.0615234375,4746.47265625C2138.6025390625,4746.47265625,2100.65478515625,4737.06103515625,2068.468505859375,4720.37744140625C2056.942626953125,4714.3876953125,2045.968994140625,4707.5439453125,2035.730224609375,4699.7822265625C2025.4921875,4692.1435546875,2015.927978515625,4683.64892578125,2007.100341796875,4674.4208984375C1983.864013671875,4650.158203125,1965.84033203125,4620.947265625,1954.805419921875,4588.435546875C1951.31103515625,4578.04638671875,1948.490478515625,4567.3525390625,1946.468505859375,4556.4130859375C1944.567626953125,4546.330078125,1943.341796875,4535.9404296875,1942.851318359375,4525.4296875C1942.60498046875,4521.51806640625,1942.54443359375,4517.607421875,1942.54443359375,4513.63427734375L1942.54443359375,4349.3662109375C1942.54443359375,4220.7861328125,2047.134033203125,4116.52734375,2176.123046875,4116.52734375C2240.61669921875,4116.52734375,2298.9814453125,4142.56201171875,2341.283447265625,4184.728515625C2383.5224609375,4226.8359375,2409.700927734375,4285.076171875,2409.700927734375,4349.3662109375L2409.700927734375,4513.63427734375C2409.700927734375,4518.8291015625,2409.517333984375,4523.962890625,2409.210205078125,4529.0341796875C2408.535888671875,4539.3037109375,2407.18798828125,4549.38525390625,2405.225830078125,4559.224609375C2403.079345703125,4570.0419921875,2400.136474609375,4580.6142578125,2396.520263671875,4590.8193359375C2385.11767578125,4623.1484375,2366.787353515625,4652.23681640625,2343.24462890625,4676.25341796875Z" class="cls-1" style="fill:#000000;fill-opacity:0.5"></path>
+          </g>
+        </g>
+      </svg>''',
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 188.36,
+                top: 330.86,
+                width: 467.22,
+                height: 333.61,
+                child: Opacity(
+                  opacity: 0.15,
+                  child: SvgPicture.string(
+                    r'''<svg width="467.218" xmlns="http://www.w3.org/2000/svg" height="333.611" id="screenshot-b527cf84-f825-80eb-8006-f25457205dcf" viewBox="1942.36 4412.861 467.218 333.611" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+        <g id="shape-b527cf84-f825-80eb-8006-f25457205dcf">
+          <defs></defs>
+          <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dcf">
+            <path d="M2390.5107421875,4453.8681640625C2397.13330078125,4455.27294921875,2403.447998046875,4456.923828125,2409.578857421875,4458.7548828125L2409.578857421875,4421.7236328125C2380.763427734375,4416.22216796875,2340.976318359375,4412.06640625,2294.19921875,4417.38232421875C2240.986083984375,4423.4326171875,2199.419189453125,4439.505859375,2172.75146484375,4452.2177734375C2142.097412109375,4436.81640625,2089.80322265625,4415.73388671875,2022.30419921875,4413.1044921875C2017.705810546875,4412.92138671875,2013.169921875,4412.86083984375,2008.69384765625,4412.86083984375C1983.74267578125,4412.86083984375,1961.42578125,4415.48828125,1942.421142578125,4419.033203125L1942.421142578125,4455.7607421875C1969.335693359375,4449.7724609375,2006.48681640625,4445.06640625,2050.014404296875,4450.07861328125C2088.025390625,4454.4775390625,2118.86181640625,4464.927734375,2140.748046875,4474.27880859375C2131.123779296875,4482.65234375,2121.43798828125,4491.0234375,2111.750732421875,4499.33447265625C2091.886962890625,4491.7578125,2062.705322265625,4483.078125,2026.4736328125,4481.0625C1992.570068359375,4479.16796875,1963.755859375,4483.6904296875,1942.360595703125,4489.0078125L1942.360595703125,4513.63427734375C1942.360595703125,4517.607421875,1942.421142578125,4521.51806640625,1942.66650390625,4525.4296875C1960.261962890625,4520.4189453125,1982.393798828125,4516.017578125,2008.143310546875,4515.04052734375C2039.899658203125,4513.87939453125,2066.384033203125,4518.40087890625,2085.266357421875,4523.10693359375C2078.031982421875,4532.4580078125,2070.797607421875,4541.806640625,2063.563232421875,4551.15771484375C2038.427734375,4545.96240234375,2002.5634765625,4542.4189453125,1962.101318359375,4552.01171875C1956.583740234375,4553.29541015625,1951.31103515625,4554.76416015625,1946.28369140625,4556.4130859375C1948.306884765625,4567.3525390625,1951.127197265625,4578.04638671875,1954.62158203125,4588.435546875C1969.579833984375,4584.953125,1986.807861328125,4582.0810546875,2005.996337890625,4580.91796875C2019.423095703125,4580.125,2031.806884765625,4580.2470703125,2043.087646484375,4580.91796875C2034.19873046875,4597.2978515625,2025.001708984375,4617.0361328125,2017.09375,4639.953125C2012.923583984375,4651.9931640625,2009.5517578125,4663.541015625,2006.9775390625,4674.3583984375C2015.804931640625,4683.58642578125,2025.369384765625,4692.0830078125,2035.60888671875,4699.7216796875C2039.102783203125,4680.470703125,2045.10986328125,4657.859375,2055.471435546875,4633.59765625C2062.58203125,4616.9140625,2070.429931640625,4602.4921875,2078.031982421875,4590.26904296875C2087.841552734375,4595.708984375,2097.651123046875,4601.14697265625,2107.459228515625,4606.587890625C2098.32470703125,4620.15380859375,2087.105712890625,4639.953125,2078.89013671875,4665.49853515625C2072.207763671875,4686.21484375,2069.38818359375,4705.09912109375,2068.34521484375,4720.37744140625C2100.531494140625,4737.06103515625,2137.130859375,4746.47265625,2175.9384765625,4746.47265625C2214.746337890625,4746.47265625,2248.70947265625,4737.73388671875,2280.097900390625,4722.08740234375C2278.626220703125,4698.9267578125,2273.354248046875,4668.6767578125,2257.90625,4637.0205078125C2252.69384765625,4626.32666015625,2246.992919921875,4616.853515625,2241.292236328125,4608.54150390625C2244.908447265625,4605.486328125,2249.567626953125,4602.00390625,2255.33154296875,4598.763671875C2261.5234375,4595.279296875,2267.22412109375,4593.01904296875,2271.94384765625,4591.552734375C2272.496337890625,4592.4697265625,2283.531494140625,4613.1865234375,2291.563232421875,4632.314453125C2302.047119140625,4657.30810546875,2307.01318359375,4678.4541015625,2309.46435546875,4689.26953125C2310.56884765625,4694.09716796875,2311.488525390625,4698.55908203125,2312.2841796875,4702.71630859375C2323.319580078125,4694.77099609375,2333.619873046875,4685.9716796875,2343.060302734375,4676.25341796875C2339.62744140625,4662.7490234375,2334.90625,4647.59228515625,2328.223876953125,4631.4580078125C2320.131591796875,4611.90283203125,2311.057861328125,4595.46484375,2302.659423828125,4582.20263671875C2315.22802734375,4579.94140625,2332.7607421875,4578.23046875,2353.3603515625,4580.49267578125C2370.28125,4582.384765625,2384.7490234375,4586.48046875,2396.33642578125,4590.88134765625C2399.953125,4580.67578125,2402.833984375,4570.1015625,2405.0419921875,4559.2861328125C2387.814208984375,4553.29541015625,2365.376953125,4547.73583984375,2338.8916015625,4546.57373046875C2318.109130859375,4545.65625,2300.0234375,4547.67431640625,2285.615966796875,4550.42333984375C2283.2861328125,4546.69677734375,2280.159423828125,4542.3583984375,2275.9912109375,4537.9580078125C2270.962646484375,4532.5791015625,2265.93701171875,4528.607421875,2261.7060546875,4525.79638671875C2290.213623046875,4517.484375,2314.5537109375,4515.40625,2331.595703125,4515.162109375C2347.59716796875,4514.91845703125,2367.21630859375,4514.796875,2391.24755859375,4522.3740234375C2397.991455078125,4524.5126953125,2403.9384765625,4526.896484375,2408.903564453125,4529.0947265625C2409.271728515625,4524.0244140625,2409.39501953125,4518.8896484375,2409.39501953125,4513.6953125L2409.39501953125,4493.83447265625C2381.0712890625,4484.8505859375,2336.072021484375,4475.6220703125,2284.267333984375,4486.6845703125C2267.22412109375,4490.291015625,2252.265869140625,4495.544921875,2239.514404296875,4501.107421875C2228.72412109375,4492.61181640625,2217.934326171875,4484.119140625,2207.144287109375,4475.6220703125C2237.675048828125,4461.93359375,2307.379638671875,4435.9609375,2390.389404296875,4453.98828125ZM2176.30615234375,4492.12353515625C2185.870361328125,4499.1513671875,2195.434814453125,4506.1171875,2204.9970703125,4513.1455078125C2194.760498046875,4520.1728515625,2184.521728515625,4527.1416015625,2174.343505859375,4534.16796875C2165.271728515625,4526.95703125,2156.136474609375,4519.74609375,2147.063232421875,4512.5341796875C2156.8115234375,4505.751953125,2166.55859375,4498.90771484375,2176.30615234375,4492.12353515625ZM2127.9970703125,4579.6357421875C2117.636474609375,4574.80859375,2107.275390625,4570.0419921875,2096.914306640625,4565.212890625C2104.7607421875,4555.7412109375,2112.547119140625,4546.2685546875,2120.333740234375,4536.73388671875C2131.123779296875,4542.541015625,2141.913818359375,4548.3466796875,2152.70361328125,4554.15185546875C2144.488037109375,4562.646484375,2136.211181640625,4571.1416015625,2127.9970703125,4579.6357421875ZM2176.919677734375,4625.958984375C2169.13330078125,4617.5859375,2161.409912109375,4609.21435546875,2153.684814453125,4600.90234375C2160.79638671875,4592.53125,2167.845947265625,4584.1572265625,2174.9580078125,4575.84716796875C2182.805419921875,4583.05859375,2190.590087890625,4590.26904296875,2198.376708984375,4597.48046875C2191.26513671875,4606.953125,2184.092529296875,4616.4248046875,2176.919677734375,4625.958984375ZM2231.666259765625,4536.73388671875C2239.452880859375,4546.2080078125,2247.299072265625,4555.6806640625,2255.085693359375,4565.212890625C2244.724609375,4570.0419921875,2234.363525390625,4574.869140625,2224.0029296875,4579.6357421875C2215.725830078125,4571.1416015625,2207.511962890625,4562.646484375,2199.29638671875,4554.15185546875C2210.086181640625,4548.3466796875,2220.876220703125,4542.541015625,2231.666259765625,4536.73388671875Z" class="cls-2" style="fill:#000000;fill-opacity:0.5"></path>
+          </g>
+        </g>
+      </svg>''',
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 179.0,
+                top: 659.0,
+                width: 486.0,
+                height: 796.0,
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Color(0xFFffffff),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(80.0),
+                      topRight: Radius.circular(80.0),
+                      bottomRight: Radius.circular(0),
+                      bottomLeft: Radius.circular(0),
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Color(0x80000000),
+                        offset: Offset(4.0, 4.0),
+                        blurRadius: 50.0,
+                        spreadRadius: 7.0,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 258.5,
+                top: 589.67,
+                width: 201.0,
+                child: Text('اسم المركبة (إن وجد)', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w800, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 26.5,
+                top: 573.67,
+                width: 220.0,
+                height: 60.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)))),
+              ),
+              Positioned(
+                left: 27.5,
+                top: 589.67,
+                width: 207.0,
+                child: Opacity(opacity: 0.5, child: Text('أدخل اسم المركبة', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 18.0, fontWeight: FontWeight.w400, color: Color(0xFF4E4E4E), letterSpacing: 0))),
+              ),
+              Positioned(
+                left: 30,
+                top: 932,
+                width: 426,
+                height: 68,
+                child: SvgPicture.asset(
+                  'assets/alkhat/screens/vehicle_1_ui/assets/components/next.svg',
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Positioned(
+                left: 0,
+                top: 413.0,
+                width: 845.0,
+                height: 215.0,
+                child: Opacity(opacity: 0.3, child: SvgPicture.string(r'''<svg width="1165" xmlns="http://www.w3.org/2000/svg" height="535" id="screenshot-b527cf84-f825-80eb-8006-f25457205dc3" viewBox="1594 4335 1165 535" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+      <g id="shape-b527cf84-f825-80eb-8006-f25457205dc3" style="opacity:0.3">
+        <defs>
+          <filter id="filter-render-86825" x="-0.09467455621301775" y="-0.37209302325581395" width="1.1893491124260356" height="1.744186046511628" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feblend>
+            <feGaussianBlur stdDeviation="40" result="filter_71b04822-b0d5-8031-8006-f0e74f1dbc5f"></feGaussianBlur>
+          </filter>
+          <filter id="filter-blur-render-86825" x="-0.09467455621301775" y="-0.37209302325581395" width="1.1893491124260356" height="1.744186046511628" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feblend>
+            <feGaussianBlur stdDeviation="40" result="filter_71b04822-b0d5-8031-8006-f0e74f1dbc5f"></feGaussianBlur>
+          </filter>
+        </defs>
+        <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dc3">
+          <path d="M2491.826171875,4495C2550.97705078125,4495,2599,4543.1689453125,2599,4602.5C2599,4661.8310546875,2550.97705078125,4710,2491.826171875,4710C2432.67529296875,4710,2384.65234375,4661.8310546875,2384.65234375,4602.5C2384.65234375,4543.1689453125,2432.67529296875,4495,2491.826171875,4495M1861.173828125,4495C1920.3245849609375,4495,1968.3475341796875,4543.1689453125,1968.3475341796875,4602.5C1968.3475341796875,4661.8310546875,1920.3245849609375,4710,1861.173828125,4710C1802.02294921875,4710,1754,4661.8310546875,1754,4602.5C1754,4543.1689453125,1802.02294921875,4495,1861.173828125,4495" filter="url(#filter-render-86825)" style="fill:#aa652b;fill-opacity:1"></path>
+        </g>
+      </g>
+    </svg>''', fit: BoxFit.contain)),
+              ),
+              Positioned(
+                left: 0,
+                top: 1160.0,
+                width: 845.0,
+                height: 215.0,
+                child: Opacity(opacity: 0.3, child: SvgPicture.string(r'''<svg width="1165" xmlns="http://www.w3.org/2000/svg" height="535" id="screenshot-b527cf84-f825-80eb-8006-f25457205dc4" viewBox="1594 5082 1165 535" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+      <g id="shape-b527cf84-f825-80eb-8006-f25457205dc4" style="opacity:0.3">
+        <defs>
+          <filter id="filter-render-86826" x="-0.09467455621301775" y="-0.37209302325581395" width="1.1893491124260356" height="1.744186046511628" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feblend>
+            <feGaussianBlur stdDeviation="40" result="filter_71b04822-b0d5-8031-8006-f0e74f1dbc5f"></feGaussianBlur>
+          </filter>
+          <filter id="filter-blur-render-86826" x="-0.09467455621301775" y="-0.37209302325581395" width="1.1893491124260356" height="1.744186046511628" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feblend>
+            <feGaussianBlur stdDeviation="40" result="filter_71b04822-b0d5-8031-8006-f0e74f1dbc5f"></feGaussianBlur>
+          </filter>
+        </defs>
+        <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dc4">
+          <path d="M2491.826171875,5242C2550.97705078125,5242,2599,5290.1689453125,2599,5349.5C2599,5408.8310546875,2550.97705078125,5457,2491.826171875,5457C2432.67529296875,5457,2384.65234375,5408.8310546875,2384.65234375,5349.5C2384.65234375,5290.1689453125,2432.67529296875,5242,2491.826171875,5242M1861.173828125,5242C1920.3245849609375,5242,1968.3475341796875,5290.1689453125,1968.3475341796875,5349.5C1968.3475341796875,5408.8310546875,1920.3245849609375,5457,1861.173828125,5457C1802.02294921875,5457,1754,5408.8310546875,1754,5349.5C1754,5290.1689453125,1802.02294921875,5242,1861.173828125,5242" filter="url(#filter-render-86826)" style="fill:#aa652b;fill-opacity:1"></path>
+        </g>
+      </g>
+    </svg>''', fit: BoxFit.contain)),
+              ),
+              Positioned(
+                left: 112.0,
+                top: 241.0,
+                width: 262.0,
+                child: Text('Vehicle', textAlign: TextAlign.center, style: const TextStyle(fontFamily: 'Cairo', fontSize: 24.0, fontWeight: FontWeight.w500, color: Color(0xFFFFFFFF), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 146.0,
+                top: 26.0,
+                height: 29.0,
+                child: Text('معلومات المركبة', textAlign: TextAlign.center, style: const TextStyle(fontFamily: 'Cairo', fontSize: 24.0, fontWeight: FontWeight.w900, color: Color(0xFFFFFFFF), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 66.5,
+                top: 206.0,
+                height: 29.0,
+                child: Text('أدخل معلومات المركبة للمتابعة', textAlign: TextAlign.center, style: const TextStyle(fontFamily: 'Cairo', fontSize: 24.0, fontWeight: FontWeight.w900, color: Color(0xFFFFFFFF), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 423.5,
+                top: 20.0,
+                width: 42.0,
+                height: 41.0,
+                child: SvgPicture.string(r'''<svg width="42" xmlns="http://www.w3.org/2000/svg" height="41" id="screenshot-b527cf84-f825-80eb-8006-f25457205dc8" viewBox="2356.5 4457 42 41" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+      <g id="shape-b527cf84-f825-80eb-8006-f25457205dc8" style="fill:#000000" width="24" height="24" rx="0" ry="0">
+        <defs></defs>
+        <g id="shape-b527cf84-f825-80eb-8006-f25457205dd8">
+          <defs></defs>
+          <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dd8">
+            <path d="M2359.1953125,4474.8125L2389.302490234375,4474.8125L2376.149169921875,4461.626953125C2375.09814453125,4460.5732421875,2375.09814453125,4458.84375,2376.149169921875,4457.7900390625C2376.65283203125,4457.2841796875,2377.33642578125,4457,2378.04931640625,4457C2378.76220703125,4457,2379.4462890625,4457.2841796875,2379.949462890625,4457.7900390625L2397.7119140625,4475.595703125C2398.21630859375,4476.1005859375,2398.5,4476.78564453125,2398.5,4477.50048828125C2398.5,4478.21533203125,2398.21630859375,4478.900390625,2397.7119140625,4479.4052734375L2379.949462890625,4497.2109375C2378.900390625,4498.2626953125,2377.19873046875,4498.2626953125,2376.149169921875,4497.2109375C2375.099609375,4496.1591796875,2375.099609375,4494.45361328125,2376.149169921875,4493.4013671875L2389.302490234375,4480.2158203125L2359.1953125,4480.2158203125C2357.712890625,4480.2158203125,2356.5,4479,2356.5,4477.51416015625C2356.5,4476.02783203125,2357.712890625,4474.8125,2359.1953125,4474.8125" style="fill:#ffffff;fill-opacity:1"></path>
+          </g>
+        </g>
+      </g>
+    </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 251.0,
+                top: 651.33,
+                width: 210.0,
+                child: Text('رقم اللوحة (مطلوب)', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 24.0, fontWeight: FontWeight.w700, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 283.0,
+                top: 694.33,
+                width: 181.0,
+                height: 60.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 251.0,
+                top: 710.33,
+                width: 198.0,
+                child: Opacity(opacity: 0.5, child: Text('أدخل رقم اللوحة', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 18.0, fontWeight: FontWeight.w400, color: Color(0xFF4E4E4E), letterSpacing: 0))),
+              ),
+              Positioned(
+                left: 22.0,
+                top: 651.33,
+                width: 226.0,
+                child: Text('نوع المركبة (مطلوب)', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w700, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 0,
+                top: 0,
+                width: 220.0,
+                height: 60.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 22.0,
+                top: 710.33,
+                width: 213.0,
+                child: Text('حدد نوع المركبة', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w400, color: Color(0xFF000000), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 15.0,
+                top: 17.0,
+                width: 17.0,
+                height: 26.0,
+                child: SvgPicture.string(r'''<svg width="17" xmlns="http://www.w3.org/2000/svg" height="26" id="screenshot-b527cf84-f825-80eb-8006-f25457205dcc" viewBox="1979 5148.333 17 26" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+          <g id="shape-b527cf84-f825-80eb-8006-f25457205dcc" style="fill:#000000" width="24" height="24" rx="0" ry="0">
+            <defs></defs>
+            <g id="shape-b527cf84-f825-80eb-8006-f25457205dea">
+              <defs></defs>
+              <g class="fills" id="fills-b527cf84-f825-80eb-8006-f25457205dea">
+                <path d="M1987.51025390625,5148.33349609375C1987.9615478515625,5148.33349609375,1988.3946533203125,5148.5048828125,1988.7137451171875,5148.8095703125L1995.522216796875,5155.3095703125C1996.167236328125,5155.94775390625,1996.1580810546875,5156.9609375,1995.50146484375,5157.58740234375C1994.8448486328125,5158.21484375,1993.7833251953125,5158.22314453125,1993.1153564453125,5157.607421875L1987.51025390625,5152.25634765625L1981.9052734375,5157.607421875C1981.2371826171875,5158.22314453125,1980.1756591796875,5158.21484375,1979.5191650390625,5157.58740234375C1978.862548828125,5156.9609375,1978.853271484375,5155.94775390625,1979.498291015625,5155.3095703125L1986.306884765625,5148.8095703125C1986.6259765625,5148.5048828125,1987.0589599609375,5148.33349609375,1987.51025390625,5148.33349609375M1979.498291015625,5165.06005859375C1980.1629638671875,5164.42578125,1981.2406005859375,5164.42578125,1981.9052734375,5165.06005859375L1987.51025390625,5170.4111328125L1993.1153564453125,5165.06005859375C1993.7833251953125,5164.4443359375,1994.8448486328125,5164.45263671875,1995.50146484375,5165.07958984375C1996.1580810546875,5165.70654296875,1996.167236328125,5166.7197265625,1995.522216796875,5167.35791015625L1988.7137451171875,5173.85791015625C1988.049072265625,5174.49169921875,1986.971435546875,5174.49169921875,1986.306884765625,5173.85791015625L1979.498291015625,5167.35791015625C1978.8338623046875,5166.72314453125,1978.8338623046875,5165.69482421875,1979.498291015625,5165.06005859375" style="fill:#aa652b;fill-opacity:1"></path>
+              </g>
+            </g>
+          </g>
+        </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 251.0,
+                top: 772.0,
+                width: 210.0,
+                child: Text('رقم المقطورة (مطلوب)', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w700, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 283.0,
+                top: 815.0,
+                width: 181.0,
+                height: 60.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 251.0,
+                top: 831.0,
+                width: 198.0,
+                child: Opacity(opacity: 0.5, child: Text('أدخل رقم المقطورة', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 18.0, fontWeight: FontWeight.w400, color: Color(0xFF4E4E4E), letterSpacing: 0))),
+              ),
+              Positioned(
+                left: 22.0,
+                top: 772.0,
+                width: 226.0,
+                child: Text('الحمولة القصوى (اختياري)', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 18.0, fontWeight: FontWeight.w700, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 0,
+                top: 0,
+                width: 220.0,
+                height: 60.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 22.0,
+                top: 831.0,
+                width: 213.0,
+                child: Text('حدد الحمولة', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w400, color: Color(0xFF000000), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 15.0,
+                top: 17.0,
+                width: 17.0,
+                height: 26.0,
+                child: SvgPicture.string(r'''<svg width="17" xmlns="http://www.w3.org/2000/svg" height="26" id="screenshot-329950f3-4367-803f-8006-f2590e7a2cf2" viewBox="1979 5269 17 26" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+          <g id="shape-329950f3-4367-803f-8006-f2590e7a2cf2" style="fill:#000000" width="24" height="24" rx="0" ry="0">
+            <defs></defs>
+            <g id="shape-329950f3-4367-803f-8006-f2590e7a2cf3">
+              <defs></defs>
+              <g class="fills" id="fills-329950f3-4367-803f-8006-f2590e7a2cf3">
+                <path d="M1987.51025390625,5269C1987.9615478515625,5269,1988.3946533203125,5269.17138671875,1988.7137451171875,5269.47607421875L1995.522216796875,5275.97607421875C1996.167236328125,5276.6142578125,1996.1580810546875,5277.62744140625,1995.50146484375,5278.25390625C1994.8448486328125,5278.88134765625,1993.7833251953125,5278.8896484375,1993.1153564453125,5278.27392578125L1987.51025390625,5272.9228515625L1981.9052734375,5278.27392578125C1981.2371826171875,5278.8896484375,1980.1756591796875,5278.88134765625,1979.5191650390625,5278.25390625C1978.862548828125,5277.62744140625,1978.853271484375,5276.6142578125,1979.498291015625,5275.97607421875L1986.306884765625,5269.47607421875C1986.6259765625,5269.17138671875,1987.0589599609375,5269,1987.51025390625,5269M1979.498291015625,5285.7265625C1980.1629638671875,5285.09228515625,1981.2406005859375,5285.09228515625,1981.9052734375,5285.7265625L1987.51025390625,5291.07763671875L1993.1153564453125,5285.7265625C1993.7833251953125,5285.11083984375,1994.8448486328125,5285.119140625,1995.50146484375,5285.74609375C1996.1580810546875,5286.373046875,1996.167236328125,5287.38623046875,1995.522216796875,5288.0244140625L1988.7137451171875,5294.5244140625C1988.049072265625,5295.158203125,1986.971435546875,5295.158203125,1986.306884765625,5294.5244140625L1979.498291015625,5288.0244140625C1978.8338623046875,5287.3896484375,1978.8338623046875,5286.361328125,1979.498291015625,5285.7265625" style="fill:#aa652b;fill-opacity:1"></path>
+              </g>
+            </g>
+          </g>
+        </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 31.0,
+                top: 441.0,
+                width: 422.0,
+                child: Text('في حالة الإجابة بـ "لا"، أذكر السبب', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w700, color: Color(0xFF000000), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 30.0,
+                top: 473.0,
+                width: 426.0,
+                height: 83.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0), bottomRight: Radius.circular(10.0), bottomLeft: Radius.circular(10.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 46.0,
+                top: 489.0,
+                width: 395.0,
+                height: 59.0,
+                child: Opacity(opacity: 0.5, child: Text('وضح الأسباب', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 18.0, fontWeight: FontWeight.w400, color: Color(0xFF4E4E4E), letterSpacing: 0))),
+              ),
+              Positioned(
+                left: 31.5,
+                top: 332.0,
+                width: 423.0,
+                child: Text('هل المركبة مسجلة بإسمك؟', textAlign: TextAlign.center, style: const TextStyle(fontFamily: 'Cairo', fontSize: 24.0, fontWeight: FontWeight.w700, color: Color(0xFFAA662C), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 261.0,
+                top: 384.0,
+                width: 116.0,
+                height: 42.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0), topRight: Radius.circular(15.0), bottomRight: Radius.circular(15.0), bottomLeft: Radius.circular(15.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(0, 0), blurRadius: 4.0, spreadRadius: 3.0)])),
+              ),
+              Positioned(
+                left: 262.68,
+                top: 392.4,
+                width: 71.45,
+                height: 24.36,
+                child: Text('نعم', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w700, color: Color(0xFF000000), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 342.54,
+                top: 393.24,
+                width: 22.7,
+                height: 22.68,
+                child: SvgPicture.string(r'''<svg width="22.696" xmlns="http://www.w3.org/2000/svg" height="22.68" id="screenshot-b527cf84-f825-80eb-8006-f2572a246162" viewBox="2275.536 4830.24 22.696 22.68" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+          <g id="shape-b527cf84-f825-80eb-8006-f2572a246162" style="fill:#000000" rx="0" ry="0">
+            <defs></defs>
+            <g id="shape-b527cf84-f825-80eb-8006-f2572a246163">
+              <defs></defs>
+              <g class="fills" id="fills-b527cf84-f825-80eb-8006-f2572a246163">
+                <path d="M2275.5361328125,4832.759765625C2275.5361328125,4831.3681640625,2276.6650390625,4830.240234375,2278.05810546875,4830.240234375L2295.710205078125,4830.240234375C2297.10302734375,4830.240234375,2298.23193359375,4831.3681640625,2298.23193359375,4832.759765625L2298.23193359375,4850.400390625C2298.23193359375,4851.7919921875,2297.10302734375,4852.919921875,2295.710205078125,4852.919921875L2278.05810546875,4852.919921875C2276.6650390625,4852.919921875,2275.5361328125,4851.7919921875,2275.5361328125,4850.400390625Z" fill="none" stroke-linejoin="round" stroke-linecap="round" style="fill:none"></path>
+              </g>
+              <g fill="none" stroke-linejoin="round" stroke-linecap="round" id="strokes-b5f7ee28-226f-805a-8006-f4d93066f544-b527cf84-f825-80eb-8006-f2572a246163" class="strokes">
+                <g class="inner-stroke-shape">
+                  <defs>
+                    <clipPath id="inner-stroke-render-86834-b527cf84-f825-80eb-8006-f2572a246163-0">
+                      <use href="#stroke-shape-render-86834-b527cf84-f825-80eb-8006-f2572a246163-0"></use>
+                    </clipPath>
+                    <path d="M2275.5361328125,4832.759765625C2275.5361328125,4831.3681640625,2276.6650390625,4830.240234375,2278.05810546875,4830.240234375L2295.710205078125,4830.240234375C2297.10302734375,4830.240234375,2298.23193359375,4831.3681640625,2298.23193359375,4832.759765625L2298.23193359375,4850.400390625C2298.23193359375,4851.7919921875,2297.10302734375,4852.919921875,2295.710205078125,4852.919921875L2278.05810546875,4852.919921875C2276.6650390625,4852.919921875,2275.5361328125,4851.7919921875,2275.5361328125,4850.400390625Z" style="fill:none;fill-opacity:none;stroke-width:6;stroke:#aa652b;stroke-opacity:1" id="stroke-shape-render-86834-b527cf84-f825-80eb-8006-f2572a246163-0"></path>
+                  </defs>
+                  <use href="#stroke-shape-render-86834-b527cf84-f825-80eb-8006-f2572a246163-0" clip-path="url(&#x27;#inner-stroke-render-86834-b527cf84-f825-80eb-8006-f2572a246163-0&#x27;)"></use>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 109.0,
+                top: 384.0,
+                width: 116.0,
+                height: 42.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFffffff), borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0), topRight: Radius.circular(15.0), bottomRight: Radius.circular(15.0), bottomLeft: Radius.circular(15.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(0, 0), blurRadius: 4.0, spreadRadius: 3.0)])),
+              ),
+              Positioned(
+                left: 110.68,
+                top: 392.4,
+                width: 71.45,
+                height: 24.36,
+                child: Text('لا', textAlign: TextAlign.right, style: const TextStyle(fontFamily: 'Cairo', fontSize: 20.0, fontWeight: FontWeight.w700, color: Color(0xFF000000), letterSpacing: 0)),
+              ),
+              Positioned(
+                left: 190.54000000000002,
+                top: 393.24,
+                width: 22.7,
+                height: 22.68,
+                child: SvgPicture.string(r'''<svg width="22.696" xmlns="http://www.w3.org/2000/svg" height="22.68" id="screenshot-b527cf84-f825-80eb-8006-f2572a246166" viewBox="2123.536 4830.24 22.696 22.68" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+          <g id="shape-b527cf84-f825-80eb-8006-f2572a246166" style="fill:#000000" rx="0" ry="0">
+            <defs></defs>
+            <g id="shape-b527cf84-f825-80eb-8006-f2572a246167">
+              <defs></defs>
+              <g class="fills" id="fills-b527cf84-f825-80eb-8006-f2572a246167">
+                <path d="M2123.5361328125,4832.759765625C2123.5361328125,4831.3681640625,2124.6650390625,4830.240234375,2126.05810546875,4830.240234375L2143.710205078125,4830.240234375C2145.10302734375,4830.240234375,2146.23193359375,4831.3681640625,2146.23193359375,4832.759765625L2146.23193359375,4850.400390625C2146.23193359375,4851.7919921875,2145.10302734375,4852.919921875,2143.710205078125,4852.919921875L2126.05810546875,4852.919921875C2124.6650390625,4852.919921875,2123.5361328125,4851.7919921875,2123.5361328125,4850.400390625Z" fill="none" stroke-linejoin="round" stroke-linecap="round" style="fill:none"></path>
+              </g>
+              <g fill="none" stroke-linejoin="round" stroke-linecap="round" id="strokes-b5f7ee28-226f-805a-8006-f4d9306781dd-b527cf84-f825-80eb-8006-f2572a246167" class="strokes">
+                <g class="inner-stroke-shape">
+                  <defs>
+                    <clipPath id="inner-stroke-render-86836-b527cf84-f825-80eb-8006-f2572a246167-0">
+                      <use href="#stroke-shape-render-86836-b527cf84-f825-80eb-8006-f2572a246167-0"></use>
+                    </clipPath>
+                    <path d="M2123.5361328125,4832.759765625C2123.5361328125,4831.3681640625,2124.6650390625,4830.240234375,2126.05810546875,4830.240234375L2143.710205078125,4830.240234375C2145.10302734375,4830.240234375,2146.23193359375,4831.3681640625,2146.23193359375,4832.759765625L2146.23193359375,4850.400390625C2146.23193359375,4851.7919921875,2145.10302734375,4852.919921875,2143.710205078125,4852.919921875L2126.05810546875,4852.919921875C2124.6650390625,4852.919921875,2123.5361328125,4851.7919921875,2123.5361328125,4850.400390625Z" style="fill:none;fill-opacity:none;stroke-width:6;stroke:#aa652b;stroke-opacity:1" id="stroke-shape-render-86836-b527cf84-f825-80eb-8006-f2572a246167-0"></path>
+                  </defs>
+                  <use href="#stroke-shape-render-86836-b527cf84-f825-80eb-8006-f2572a246167-0" clip-path="url(&#x27;#inner-stroke-render-86836-b527cf84-f825-80eb-8006-f2572a246167-0&#x27;)"></use>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 176.0,
+                top: 99.0,
+                width: 134.0,
+                height: 84.0,
+                child: SvgPicture.string(r'''<svg width="222" xmlns="http://www.w3.org/2000/svg" height="172" id="screenshot-329950f3-4367-803f-8006-f25bb58c3485" viewBox="2077 4504 222 172" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+      <g id="shape-329950f3-4367-803f-8006-f25bb58c3485" style="fill:#000000" filter="url(#filter-render-86837)" width="16" height="16" rx="0" ry="0">
+        <defs>
+          <filter id="filter-render-86837" x="-0.20149253731343283" y="-0.32142857142857145" width="1.492537313432836" height="1.7857142857142858" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+            <feOffset dx="4" dy="4"></feOffset>
+            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"></feColorMatrix>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="filter_329950f3-4367-803f-8006-f25bc5f08b53"></feblend>
+            <feBlend mode="normal" in="SourceGraphic" in2="filter_329950f3-4367-803f-8006-f25bc5f08b53" result="shape"></feblend>
+          </filter>
+          <filter id="filter-shadow-render-86837" x="-0.20149253731343283" y="-0.32142857142857145" width="1.492537313432836" height="1.7857142857142858" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+            <feOffset dx="4" dy="4"></feOffset>
+            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"></feColorMatrix>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="filter_329950f3-4367-803f-8006-f25bc5f08b53"></feblend>
+            <feBlend mode="normal" in="SourceGraphic" in2="filter_329950f3-4367-803f-8006-f25bc5f08b53" result="shape"></feblend>
+          </filter>
+        </defs>
+        <g id="shape-329950f3-4367-803f-8006-f25bb593312b">
+          <defs></defs>
+          <g class="fills" id="fills-329950f3-4367-803f-8006-f25bb593312b">
+            <path d="M2205.3125,4536C2207.625,4536,2209.5,4537.87841796875,2209.5,4540.2001953125L2209.5,4544.39990234375L2218.04248046875,4544.39990234375C2221.85595703125,4544.40380859375,2225.458740234375,4546.14306640625,2227.840576171875,4549.12890625L2240.243896484375,4564.669921875C2242.02880859375,4566.9052734375,2243.001953125,4569.6865234375,2243,4572.54931640625L2243,4590.60009765625C2243,4597.56005859375,2237.375,4603.2001953125,2230.4375,4603.2001953125L2226.25,4603.2001953125C2226.25,4612.47802734375,2218.750244140625,4620,2209.5,4620C2200.249755859375,4620,2192.75,4612.47802734375,2192.75,4603.2001953125L2150.875,4603.2001953125C2150.875,4612.47802734375,2143.375244140625,4620,2134.125,4620C2124.874755859375,4620,2117.375,4612.47802734375,2117.375,4603.2001953125C2112.75,4603.2001953125,2109,4599.4384765625,2109,4594.7998046875L2109,4586.39990234375L2201.125,4586.39990234375L2201.125,4540.2001953125C2201.125,4537.87841796875,2203,4536,2205.3125,4536M2134.125,4594.7998046875C2129.499755859375,4594.7998046875,2125.75,4598.5615234375,2125.75,4603.2001953125C2125.75,4607.83837890625,2129.499755859375,4611.60009765625,2134.125,4611.60009765625C2138.750244140625,4611.60009765625,2142.5,4607.83837890625,2142.5,4603.2001953125C2142.5,4598.5615234375,2138.750244140625,4594.7998046875,2134.125,4594.7998046875M2209.5,4594.7998046875C2204.874755859375,4594.7998046875,2201.125,4598.5615234375,2201.125,4603.2001953125C2201.125,4607.83837890625,2204.874755859375,4611.60009765625,2209.5,4611.60009765625C2214.125244140625,4611.60009765625,2217.875,4607.83837890625,2217.875,4603.2001953125C2217.875,4598.5615234375,2214.125244140625,4594.7998046875,2209.5,4594.7998046875M2224.005126953125,4594.7998046875L2230.4375,4594.7998046875C2232.75,4594.7998046875,2234.625,4592.921875,2234.625,4590.60009765625L2234.625,4572.541015625C2234.623046875,4571.5849609375,2234.2978515625,4570.662109375,2233.702880859375,4569.919921875L2221.30810546875,4554.37890625C2220.5146484375,4553.3828125,2219.314453125,4552.7998046875,2218.04248046875,4552.7998046875L2209.5,4552.7998046875L2209.5,4586.39990234375C2215.48486328125,4586.39990234375,2221.013671875,4589.603515625,2224.005126953125,4594.7998046875" style="fill:#ffffff;fill-opacity:1"></path>
+          </g>
+        </g>
+      </g>
+    </svg>''', fit: BoxFit.contain),
+              ),
+              Positioned(
+                left: 187.6,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Container(decoration: BoxDecoration(color: Color(0xFFaa652b), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 66.0,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Transform(transform: Matrix4(-1.00, 0.00, 0, 0, -0.00, -1.00, 0, 0, 0, 0, 1, 0, -0.00, -0.00, 0, 1), child: Container(decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF7D5E27), Color(0x004E3D1A)]), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)]))),
+              ),
+              Positioned(
+                left: 126.8,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Transform(transform: Matrix4(-1.00, 0.00, 0, 0, 0.00, -1.00, 0, 0, 0, 0, 1, 0, 0.00, 0.00, 0, 1), child: Container(decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF7D5E27), Color(0x004E3D1A)]), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)]))),
+              ),
+              Positioned(
+                left: 248.4,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Container(decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF7D5E27), Color(0x004E3D1A)]), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 309.2,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Container(decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF7D5E27), Color(0x004E3D1A)]), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+              Positioned(
+                left: 370.0,
+                top: 898.0,
+                width: 50.0,
+                height: 12.0,
+                child: Container(decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF7D5E27), Color(0x004E3D1A)]), borderRadius: BorderRadius.only(topLeft: Radius.circular(80.0), topRight: Radius.circular(80.0), bottomRight: Radius.circular(80.0), bottomLeft: Radius.circular(80.0)), boxShadow: [BoxShadow(color: Color(0x33000000), offset: Offset(4.0, 4.0), blurRadius: 4.0, spreadRadius: 0)])),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

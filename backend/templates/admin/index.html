@@ -1,0 +1,16 @@
+﻿{% extends "admin/index.html" %}
+{% load admin_stats %}
+
+{% block content %}
+  <div class="dashboard-counters">
+    <div class="counter-card">
+      <h3>طلبات السحب المعلقة</h3>
+      <p>{% pending_withdrawals_count %}</p>
+    </div>
+    <div class="counter-card">
+      <h3>سائقون بانتظار المراجعة</h3>
+      <p>{% pending_driver_docs_count %}</p>
+    </div>
+  </div>
+  {{ block.super }}
+{% endblock %}

@@ -1,0 +1,16 @@
+﻿{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}Al-Khatt Control Room{% endblock %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'admin/alkhatt.css' %}">
+{% endblock %}
+
+{% block branding %}
+  <h1 id="site-name">Al-Khatt Control Room</h1>
+{% endblock %}
+
+
+

@@ -1,0 +1,703 @@
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* accountcreated_section */
+.accountcre-f2443cbca98d {
+  position: relative;
+  width: 486px;
+  height: 1080px;
+  background: #FFFFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* معلومة
+للإطلاع على قواعد وسياسات استخدام هذا التطبيق، يمكنك الإطلاع عليها إما على الموقع الرسمي لشركة خطوط الرمال، أو بالضغط على قواعد الإستخدام وقواعد الخصوصية المدرجة أذناه، وننصح الزبائن بالإطلاع على حالات إخلاء المسؤولية المعلنة من طرف شركة خطوط الرمال، والمحمية بالقانون. */
+.f2483ccf7cef {
+  position: absolute;
+  left: 29px;
+  top: 682px;
+  width: 428px;
+}
+.f2483ccf7cef .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2483ccf7cef .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2483ccf7cef .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.3;
+  margin: 0;
+  text-align: center;
+}
+.f2483ccf7cef .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f2483ccf7cef .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.3;
+  margin: 0;
+  text-align: justify;
+}
+.f2483ccf7cef .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* next */
+.next-f4e2c9488c26 {
+  position: absolute;
+  left: 30px;
+  top: 952px;
+  width: 426px;
+  height: 68px;
+}
+
+/* المتابعة */
+.f248b077cbf6 {
+  position: absolute;
+  left: 155.5px;
+  top: 15px;
+  height: 36px;
+  box-shadow: ;
+}
+.f248b077cbf6 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f248b077cbf6 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f248b077cbf6 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f248b077cbf6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 30px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Rectangle */
+.rectangle-f248ad324561 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 426px;
+  height: 68px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* mdi:account-check */
+.mdi-accoun-f24811616805 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.mdi-accoun-f24811616805 {
+  position: absolute;
+  left: 165.5px;
+  top: 213px;
+  width: 155px;
+  height: 131px;
+}
+
+/* svg-path */
+.svgpath-f24811658a64 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f24811658a64 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 155px;
+  height: 131px;
+}
+
+/* عن طريق المتابعة أنت توافق على
+قواعد الإستخدام وقواعد الخصوصية */
+.f24639ea68d8 {
+  position: absolute;
+  left: 30px;
+  top: 887px;
+  width: 426px;
+}
+.f24639ea68d8 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f24639ea68d8 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-1-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f24639ea68d8 .root-0-paragraph-set-0-paragraph-1-text-2 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* إسم المستخدم */
+.f2469f8c91f4 {
+  position: absolute;
+  left: 72px;
+  top: 480.33px;
+  width: 342px;
+}
+.f2469f8c91f4 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2469f8c91f4 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2469f8c91f4 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f2469f8c91f4 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 35px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* تم إنشاء حسابك بنجاح، أهلا بك في عائلة الخط
+إضغط على رز المتابعة لفتح الصفحة الرئيسية والتمتع بخدمات تطبيق الخط المتنوعة */
+.f2443cbca997 {
+  position: absolute;
+  left: 36px;
+  top: 545px;
+  width: 414px;
+}
+.f2443cbca997 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2443cbca997 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2443cbca997 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f2443cbca997 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+}
+.f2443cbca997 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f2443cbca997 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* أهلا وسهلاً، السـ ادة ــيد */
+.f2469c6ab90a {
+  position: absolute;
+  left: 72px;
+  top: 428.67px;
+  width: 342px;
+}
+.f2469c6ab90a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2469c6ab90a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2469c6ab90a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f2469c6ab90a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* تم إنشاء الحساب بنجاح */
+.f2443cbca996 {
+  position: absolute;
+  left: 72px;
+  top: 370px;
+  width: 342px;
+}
+.f2443cbca996 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2443cbca996 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2443cbca996 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f2443cbca996 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 30px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* background */
+.background-f4e2c08b8c12 {
+  position: absolute;
+  left: -179.5px;
+  top: -335px;
+  width: 845px;
+  height: 1435px;
+}
+
+/* Group */
+.group-f2443cbca99e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f2443cbca99e {
+  position: absolute;
+  left: 0px;
+  top: 1160px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Group */
+.group-f2443cbca99d > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f2443cbca99d {
+  position: absolute;
+  left: 0px;
+  top: 413px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Rectangle */
+.rectangle-f245e642a300 {
+  position: absolute;
+  left: 179.5px;
+  top: 414px;
+  width: 486px;
+  height: 1021px;
+  background: #ffffffFF;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 4px 4px 50px 7px #00000080;
+}
+
+/* logo_blured */
+.logoblure-f2443cbca98f {
+  position: absolute;
+  left: 156px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+  opacity: 0.15;
+}
+
+/* svg-path */
+.svgpath-f2443cbca9a3 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,-2.2737367544323206e-13px);
+}
+.svgpath-f2443cbca9a3 {
+  position: absolute;
+  left: 32.86px;
+  top: 330.86px;
+  width: 467.22px;
+  height: 333.61px;
+}
+
+/* svg-path */
+.svgpath-f2443cbca9a2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f2443cbca9a2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+}
+
+/* svg-path */
+.svgpath-f2443cbca9a1 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(4.547473508864641e-13px,0px);
+}
+.svgpath-f2443cbca9a1 {
+  position: absolute;
+  left: 151.18px;
+  top: 86.78px;
+  width: 228.43px;
+  height: 227.7px;
+}
+
+/* Rectangle */
+.rectangle-f2443cbca98e {
+  position: absolute;
+  left: 157.5px;
+  top: 309px;
+  width: 530px;
+  height: 475px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 0px 0px 0px 0px;
+}

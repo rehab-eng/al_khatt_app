@@ -1,0 +1,1448 @@
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* create_new_acc */
+.createnew-f0d9ded64780 {
+  position: relative;
+  width: 486px;
+  height: 1080px;
+  background: #FFFFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* اختار نوع حساب سائق لو أنك:
+عندك شاحنة أو عربة نقل | متخصص في نقل المواد والمعدات بين الموردين والمخازن والمشاريع والمدن */
+.f0e4de6fc369 {
+  position: absolute;
+  left: 56px;
+  top: 599.5px;
+  width: 383px;
+  height: 66px;
+}
+.f0e4de6fc369 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-0-text-2 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e4de6fc369 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* healthicons:truck-driver */
+.healthicon-f0e36ce7fce0 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.healthicon-f0e36ce7fce0 {
+  position: absolute;
+  left: 330px;
+  top: 511.5px;
+  width: 46px;
+  height: 52px;
+}
+
+/* svg-path */
+.svgpath-f0e36cedc948 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0e36cedc948 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 46px;
+  height: 52px;
+}
+
+/* التسجيل كسائق */
+.f0e4de6fc361 {
+  position: absolute;
+  left: 111.75px;
+  top: 510.5px;
+  width: 195px;
+}
+.f0e4de6fc361 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e4de6fc361 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e4de6fc361 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f0e4de6fc361 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* DRIVER */
+.d-r-i-v-e-r-f0e4de6fc36a {
+  position: absolute;
+  left: 194.75px;
+  top: 542.5px;
+  width: 112px;
+}
+.d-r-i-v-e-r-f0e4de6fc36a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.d-r-i-v-e-r-f0e4de6fc36a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.d-r-i-v-e-r-f0e4de6fc36a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.d-r-i-v-e-r-f0e4de6fc36a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Component 1 */
+.component-f2337c53dc10 {
+  position: absolute;
+  left: 34.5px;
+  top: 498.5px;
+  width: 417px;
+  height: 178px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* svg-g */
+.svgg-f2326f424e80 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f2326f424e80 {
+  position: absolute;
+  left: 377.75px;
+  top: 21.5px;
+  width: 35px;
+  height: 35px;
+}
+
+/* svg-path */
+.svgpath-f2326f424e81 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f2326f424e81 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 35px;
+  height: 35px;
+}
+
+/* Rectangle */
+.rectangle-f0e4de6fc368 {
+  position: absolute;
+  left: 0px;
+  top: 95px;
+  width: 417px;
+  height: 83px;
+  background: #ffffffFF;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0e4de6fc362 {
+  position: absolute;
+  left: 4.25px;
+  top: 0px;
+  width: 361px;
+  height: 78px;
+  background: #ffffffFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 4px 3px #00000033;
+}
+
+/* svg-g */
+.svgg-f0df4e14bee8 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f0df4e14bee8 {
+  position: absolute;
+  left: 412.25px;
+  top: 311px;
+  width: 35px;
+  height: 35px;
+}
+
+/* svg-path */
+.svgpath-f0df4e15bfb7 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(4.547473508864641e-13px,0px);
+}
+.svgpath-f0df4e15bfb7 {
+  position: absolute;
+  left: 11.67px;
+  top: 15.56px;
+  width: 11.67px;
+  height: 5.83px;
+}
+
+/* svg-path */
+.svgpath-f0df4e14f7ee > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0df4e14f7ee {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 35px;
+  height: 35px;
+}
+
+/* اختار نوع حساب مقاول لو أنك:
+صاحب مشروع | شركة بناء تبحث عن عمالة أو معدات
+شركة تبحث عن مواد لإنجاز مهام مطلوبة  */
+.f0e0c090aa65 {
+  position: absolute;
+  left: 56px;
+  top: 391px;
+  width: 383px;
+  height: 66px;
+}
+.f0e0c090aa65 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-0-text-2 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-2 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e0c090aa65 .root-0-paragraph-set-0-paragraph-2-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* اختار نوع حساب وكيل لو أنك:
+شركة مواد ومستلزمات بناء | شركة تقدم في عروض للمقاولين والسائقين | وكيل لشركة مقاولات وبناء */
+.f0e4e20a5651 {
+  position: absolute;
+  left: 56px;
+  top: 808px;
+  width: 383px;
+  height: 66px;
+}
+.f0e4e20a5651 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-0-text-2 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.f0e4e20a5651 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Group */
+.group-f0e61cf4129f {
+  position: absolute;
+  left: 126.5px;
+  top: 917px;
+  width: 233px;
+  height: 12px;
+}
+
+/* Rectangle */
+.rectangle-f0e610df8264 {
+  position: absolute;
+  left: 183px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0e610703f5c {
+  position: absolute;
+  left: 122px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0e60e6a8821 {
+  position: absolute;
+  left: 61px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0e5feabf648 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: #aa652bFF;
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* mdi:face-agent */
+.mdi-facea-f0e3846c74cf > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.mdi-facea-f0e3846c74cf {
+  position: absolute;
+  left: 326px;
+  top: 722px;
+  width: 54px;
+  height: 48px;
+}
+
+/* svg-path */
+.svgpath-f0e384703eae > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0e384703eae {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 54px;
+  height: 48px;
+}
+
+/* التسجيل كوكيل */
+.f0e4e20a5649 {
+  position: absolute;
+  left: 111.75px;
+  top: 719px;
+  width: 195px;
+}
+.f0e4e20a5649 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e4e20a5649 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e4e20a5649 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f0e4e20a5649 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* AGENT / SUPPLIER */
+.a-g-e-n-t-s-u-f0e4e20a5652 {
+  position: absolute;
+  left: 131px;
+  top: 751px;
+  width: 176px;
+}
+.a-g-e-n-t-s-u-f0e4e20a5652 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.a-g-e-n-t-s-u-f0e4e20a5652 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.a-g-e-n-t-s-u-f0e4e20a5652 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.a-g-e-n-t-s-u-f0e4e20a5652 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* unselected_box */
+.unselected-f4dcaa21da89 {
+  position: absolute;
+  left: 34.5px;
+  top: 707px;
+  width: 417px;
+  height: 178px;
+}
+
+/* Rectangle */
+.rectangle-f0e4e20a5650 {
+  position: absolute;
+  left: 0px;
+  top: 95px;
+  width: 417px;
+  height: 83px;
+  background: #ffffffFF;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0e4e20a564a {
+  position: absolute;
+  left: 4.25px;
+  top: 0px;
+  width: 361px;
+  height: 78px;
+  background: #ffffffFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 4px 3px #00000033;
+}
+
+/* svg-g */
+.svgg-f0e4e20a564d > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f0e4e20a564d {
+  position: absolute;
+  left: 412.25px;
+  top: 728px;
+  width: 35px;
+  height: 35px;
+}
+
+/* svg-path */
+.svgpath-f0e4e20a564e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0e4e20a564e {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 35px;
+  height: 35px;
+}
+
+/* map:general-contractor */
+.map-genera-f0e352afeabc > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.map-genera-f0e352afeabc {
+  position: absolute;
+  left: 322px;
+  top: 309px;
+  width: 57px;
+  height: 39px;
+}
+
+/* svg-path */
+.svgpath-f0e352b1d871 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0e352b1d871 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 57px;
+  height: 39px;
+}
+
+/* CONTRACTOR */
+.c-o-n-t-r-a-c-t-o-r-f0e07de08405 {
+  position: absolute;
+  left: 194.75px;
+  top: 334px;
+  width: 112px;
+}
+.c-o-n-t-r-a-c-t-o-r-f0e07de08405 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-o-n-t-r-a-c-t-o-r-f0e07de08405 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-o-n-t-r-a-c-t-o-r-f0e07de08405 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.c-o-n-t-r-a-c-t-o-r-f0e07de08405 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* التسجيل كمقاول */
+.f0dfec883954 {
+  position: absolute;
+  left: 111.75px;
+  top: 302px;
+  width: 195px;
+}
+.f0dfec883954 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0dfec883954 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0dfec883954 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f0dfec883954 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* selected_box */
+.selectedb-f4dc9b943499 {
+  position: absolute;
+  left: 34.5px;
+  top: 290px;
+  width: 417px;
+  height: 178px;
+}
+
+/* Rectangle */
+.rectangle-f0e417df4da8 {
+  position: absolute;
+  left: 0px;
+  top: 95px;
+  width: 417px;
+  height: 83px;
+  background: #ffffffFF;
+  border: 1px solid #aa652bFF;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f0df9e8118fc {
+  position: absolute;
+  left: 4.25px;
+  top: 0px;
+  width: 361px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #aa652bFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 4px 3px #00000033;
+}
+
+/* next_button */
+.nextbutto-f4db9256172f {
+  position: absolute;
+  left: 30px;
+  top: 951px;
+  width: 426px;
+  height: 68px;
+}
+
+/* المتابعة */
+.f0e2c337610c {
+  position: absolute;
+  left: 155.5px;
+  top: 15px;
+  height: 36px;
+  box-shadow: ;
+}
+.f0e2c337610c .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0e2c337610c .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0e2c337610c .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f0e2c337610c .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 30px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Rectangle */
+.rectangle-f0e2c337610b {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 426px;
+  height: 68px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* mdi:account */
+.mdi-accoun-f0df0c86deab > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-32px,-32px);
+}
+.mdi-accoun-f0df0c86deab {
+  position: absolute;
+  left: 196px;
+  top: 98px;
+  width: 89px;
+  height: 89px;
+}
+
+/* svg-path */
+.svgpath-f0df0c88e042 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0df0c88e042 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 89px;
+  height: 89px;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f0dcc65f6059 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f0dcc65f6059 {
+  position: absolute;
+  left: 423px;
+  top: 19px;
+  width: 42px;
+  height: 41px;
+}
+
+/* svg-path */
+.svgpath-f0dcc661c5cc > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f0dcc661c5cc {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 42px;
+  height: 41px;
+  transform: matrix(-1.00, 0.00, 0.00, 1.00, 0.00, 0.00);
+}
+
+/* حدد مجال عملك للمتابعة ... */
+.f0de1ab3de57 {
+  position: absolute;
+  left: 106px;
+  top: 232px;
+  height: 29px;
+}
+.f0de1ab3de57 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0de1ab3de57 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0de1ab3de57 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f0de1ab3de57 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 101, 43, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 101, 43, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* اختر نوع الحساب */
+.f0ddd8458f3b {
+  position: absolute;
+  left: 153px;
+  top: 194px;
+  height: 29px;
+}
+.f0ddd8458f3b .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0ddd8458f3b .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0ddd8458f3b .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f0ddd8458f3b .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* إنشاء حساب */
+.f0dbea8f1fc9 {
+  position: absolute;
+  left: 176px;
+  top: 25px;
+  height: 29px;
+}
+.f0dbea8f1fc9 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f0dbea8f1fc9 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f0dbea8f1fc9 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f0dbea8f1fc9 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* background */
+.background-f4dbd61625cd {
+  position: absolute;
+  left: -180px;
+  top: -335px;
+  width: 845px;
+  height: 1435px;
+}
+
+/* Group */
+.group-f0e78d7867d2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f0e78d7867d2 {
+  position: absolute;
+  left: 0px;
+  top: 1159px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Group */
+.group-f0e740f662a4 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f0e740f662a4 {
+  position: absolute;
+  left: 0px;
+  top: 412px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Rectangle */
+.rectangle-f244d37f6fbb {
+  position: absolute;
+  left: 180px;
+  top: 414px;
+  width: 486px;
+  height: 1021px;
+  background: #ffffffFF;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 4px 4px 50px 7px #00000080;
+}
+
+/* logo_blured */
+.logoblure-f244d88d9e57 {
+  position: absolute;
+  left: 156.5px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+  opacity: 0.15;
+}
+
+/* svg-path */
+.svgpath-f244d88d9e5a > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,-2.2737367544323206e-13px);
+}
+.svgpath-f244d88d9e5a {
+  position: absolute;
+  left: 32.86px;
+  top: 330.86px;
+  width: 467.22px;
+  height: 333.61px;
+}
+
+/* svg-path */
+.svgpath-f244d88d9e59 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f244d88d9e59 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+}
+
+/* svg-path */
+.svgpath-f244d88d9e58 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(4.547473508864641e-13px,0px);
+}
+.svgpath-f244d88d9e58 {
+  position: absolute;
+  left: 151.18px;
+  top: 86.78px;
+  width: 228.43px;
+  height: 227.7px;
+}
+
+/* Rectangle */
+.rectangle-f244d88d539f {
+  position: absolute;
+  left: 181.5px;
+  top: 335px;
+  width: 530px;
+  height: 475px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 0px 0px 0px 0px;
+}

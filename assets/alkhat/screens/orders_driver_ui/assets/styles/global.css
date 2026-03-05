@@ -1,0 +1,2940 @@
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* orders_driver_ui */
+.ordersdri-f4cca513940a {
+  position: relative;
+  width: 486px;
+  height: 1080px;
+  background: #FFFFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* home_icon */
+.homeicon-fef0676fd258 {
+  position: absolute;
+  left: 171.17px;
+  top: 978px;
+  width: 49px;
+  height: 58.42px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* الرئيسية */
+.fef0676fd25a {
+  position: absolute;
+  left: 0px;
+  top: 38.42px;
+  height: 20px;
+}
+.fef0676fd25a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.fef0676fd25a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.fef0676fd25a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.fef0676fd25a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* material-symbols:home-rounded */
+.materials-fef0676fd259 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.materials-fef0676fd259 {
+  position: absolute;
+  left: 7.5px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* svg-path */
+.svgpath-fef0676fd25b > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-fef0676fd25b {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* orders_icon */
+.ordersico-feee4ac72fd6 {
+  position: absolute;
+  left: 348.5px;
+  top: 978px;
+  width: 49px;
+  height: 58.42px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:location-bold */
+.iconamoon-feee4ac72fd8 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-feee4ac72fd8 {
+  position: absolute;
+  left: 9px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* svg-path */
+.svgpath-feee4ac72fd9 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-feee4ac72fd9 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* الطلبيات */
+.feee4ac72fd7 {
+  position: absolute;
+  left: 0px;
+  top: 38.42px;
+  height: 20px;
+}
+.feee4ac72fd7 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.feee4ac72fd7 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.feee4ac72fd7 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.feee4ac72fd7 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* messsages_icon */
+.messsages-feee4ac72fce {
+  position: absolute;
+  left: 262.83px;
+  top: 978px;
+  width: 43px;
+  height: 58.42px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* الرسائل */
+.feee4ac72fd0 {
+  position: absolute;
+  left: 0px;
+  top: 38.42px;
+  height: 20px;
+}
+.feee4ac72fd0 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.feee4ac72fd0 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.feee4ac72fd0 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.feee4ac72fd0 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ant-design:message-outlined */
+.antdesign-feee4ac72fcf > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.antdesign-feee4ac72fcf {
+  position: absolute;
+  left: 4.5px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* svg-path */
+.svgpath-feee4ac72fd1 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-feee4ac72fd1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+/* myaccount_icon */
+.myaccount-feee4ac72fc8 {
+  position: absolute;
+  left: 87.5px;
+  top: 978px;
+  width: 41px;
+  height: 58.42px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* حسابي */
+.feee4ac72fca {
+  position: absolute;
+  left: 0px;
+  top: 38.42px;
+  height: 20px;
+}
+.feee4ac72fca .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.feee4ac72fca .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.feee4ac72fca .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+.feee4ac72fca .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* iconamoon:profile-bold */
+.iconamoon-feee4ac72fc9 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-feee4ac72fc9 {
+  position: absolute;
+  left: 2.5px;
+  top: 0px;
+  width: 36px;
+  height: 34px;
+}
+
+/* svg-g */
+.svgg-feee4ac72fcb > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-feee4ac72fcb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36px;
+  height: 34px;
+}
+
+/* svg-circle */
+.svgcircle-feee4ac72fcd > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgcircle-feee4ac72fcd {
+  position: absolute;
+  left: 11.25px;
+  top: 0px;
+  width: 13.5px;
+  height: 13.37px;
+  border-radius: 50%;
+}
+
+/* svg-path */
+.svgpath-feee4ac72fcc > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-feee4ac72fcc {
+  position: absolute;
+  left: 0px;
+  top: 17.41px;
+  width: 36px;
+  height: 16.59px;
+}
+
+/* live_bar */
+.livebar-feee4ac72fc7 {
+  position: absolute;
+  left: 41px;
+  top: 960px;
+  width: 404px;
+  height: 92px;
+  background: linear-gradient(to bottom, rgba(76, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border: 5px solid #ffffffFF;
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+  opacity: 0.95;
+}
+
+/* menu_bar */
+.menubar-feee4ac72fc3 {
+  position: absolute;
+  left: 34px;
+  top: 30px;
+  width: 49px;
+  height: 49px;
+}
+
+/* foundation:indent-more */
+.foundation-feee4ac72fc5 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.foundation-feee4ac72fc5 {
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  width: 27px;
+  height: 27px;
+}
+
+/* svg-path */
+.svgpath-feee4ac72fc6 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-feee4ac72fc6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 27px;
+  height: 27px;
+}
+
+/* Ellipse */
+.ellipse-feee4ac72fc4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 49px;
+  height: 49px;
+  background: #ffffffFF;
+  border-radius: 50%;
+  box-shadow: ;
+}
+
+/* notification_icon */
+.notificati-feee4ac6d0f4 {
+  position: absolute;
+  left: 403px;
+  top: 30px;
+  width: 49px;
+  height: 49px;
+}
+
+/* ion:notifcations */
+.ion-notifc-feee4ac72fc1 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ion-notifc-feee4ac72fc1 {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 25px;
+  height: 29px;
+}
+
+/* svg-path */
+.svgpath-feee4ac72fc2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-feee4ac72fc2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 25px;
+  height: 29px;
+}
+
+/* Ellipse */
+.ellipse-feee4ac72fc0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 49px;
+  height: 49px;
+  background: #ffffffFF;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f4d172d88b1b {
+  position: absolute;
+  left: 24px;
+  top: 1007px;
+  width: 444px;
+  height: 78px;
+}
+
+/* Group */
+.group-f4d172d88b1e {
+  position: absolute;
+  left: 12px;
+  top: 7px;
+  width: 420px;
+  height: 64px;
+}
+
+/* Group */
+.group-f4d172d88b23 {
+  position: absolute;
+  left: 356px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:box-fill */
+.iconamoon-f4d172d88b28 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-f4d172d88b28 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+/* svg-path */
+.svgpath-f4d172d88b29 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d172d88b29 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Ellipse */
+.ellipse-f4d172d88b27 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d172d88b22 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4d172d88b25 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f4d172d88b25 {
+  position: absolute;
+  left: 13.82px;
+  top: 14.55px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+}
+
+/* svg-path */
+.svgpath-f4d172d88b26 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d172d88b26 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(1.00, 0.00, 0.00, -1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4d172d88b24 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d172d88b1d {
+  position: absolute;
+  left: 95px;
+  top: 14.5px;
+  width: 254px;
+  height: 49px;
+}
+
+/* 2025/09/11 */
+.c-20250911-f4d172d88b21 {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 90px;
+}
+.c-20250911-f4d172d88b21 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-20250911-f4d172d88b21 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-20250911-f4d172d88b21 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.c-20250911-f4d172d88b21 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* حسن حسن محمد */
+.f4d172d88b20 {
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 154px;
+}
+.f4d172d88b20 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d172d88b20 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d172d88b20 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d172d88b20 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة حديد صلب 4 طن من صرمان */
+.f4d172d88b1f {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 254px;
+}
+.f4d172d88b1f .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d172d88b1f .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d172d88b1f .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d172d88b1f .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Rectangle */
+.rectangle-f4d172d88b1c {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 444px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f4d145f5ad65 {
+  position: absolute;
+  left: 24px;
+  top: 905px;
+  width: 444px;
+  height: 78px;
+}
+
+/* Group */
+.group-f4d145f5ad68 {
+  position: absolute;
+  left: 12px;
+  top: 7px;
+  width: 420px;
+  height: 64px;
+}
+
+/* Group */
+.group-f4d145f5ad6d {
+  position: absolute;
+  left: 356px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:box-fill */
+.iconamoon-f4d145f5ad72 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-f4d145f5ad72 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+/* svg-path */
+.svgpath-f4d145f5ad73 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d145f5ad73 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Ellipse */
+.ellipse-f4d145f5ad71 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d145f5ad6c {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4d145f5ad6f > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f4d145f5ad6f {
+  position: absolute;
+  left: 13.82px;
+  top: 14.55px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+}
+
+/* svg-path */
+.svgpath-f4d145f5ad70 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d145f5ad70 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(1.00, 0.00, 0.00, -1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4d145f5ad6e {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d145f5ad67 {
+  position: absolute;
+  left: 95px;
+  top: 14.5px;
+  width: 254px;
+  height: 49px;
+}
+
+/* 2025/09/11 */
+.c-20250911-f4d145f5ad6b {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 90px;
+}
+.c-20250911-f4d145f5ad6b .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-20250911-f4d145f5ad6b .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-20250911-f4d145f5ad6b .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.c-20250911-f4d145f5ad6b .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* حسن حسن محمد */
+.f4d145f5ad6a {
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 154px;
+}
+.f4d145f5ad6a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d145f5ad6a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d145f5ad6a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d145f5ad6a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة حديد صلب 4 طن من صرمان */
+.f4d145f5ad69 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 254px;
+}
+.f4d145f5ad69 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d145f5ad69 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d145f5ad69 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d145f5ad69 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Rectangle */
+.rectangle-f4d145f5ad66 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 444px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f4d1456389e7 {
+  position: absolute;
+  left: 24px;
+  top: 802px;
+  width: 444px;
+  height: 78px;
+}
+
+/* Group */
+.group-f4d1456389ea {
+  position: absolute;
+  left: 12px;
+  top: 7px;
+  width: 420px;
+  height: 64px;
+}
+
+/* Group */
+.group-f4d1456389ef {
+  position: absolute;
+  left: 356px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:box-fill */
+.iconamoon-f4d1456389f4 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-f4d1456389f4 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+/* svg-path */
+.svgpath-f4d1456389f5 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d1456389f5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Ellipse */
+.ellipse-f4d1456389f3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d1456389ee {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4d1456389f1 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f4d1456389f1 {
+  position: absolute;
+  left: 13.82px;
+  top: 14.55px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+}
+
+/* svg-path */
+.svgpath-f4d1456389f2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d1456389f2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(1.00, 0.00, 0.00, -1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4d1456389f0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d1456389e9 {
+  position: absolute;
+  left: 95px;
+  top: 14.5px;
+  width: 254px;
+  height: 49px;
+}
+
+/* 2025/09/11 */
+.c-20250911-f4d1456389ed {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 90px;
+}
+.c-20250911-f4d1456389ed .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-20250911-f4d1456389ed .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-20250911-f4d1456389ed .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.c-20250911-f4d1456389ed .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* حسن حسن محمد */
+.f4d1456389ec {
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 154px;
+}
+.f4d1456389ec .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d1456389ec .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d1456389ec .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d1456389ec .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة حديد صلب 4 طن من صرمان */
+.f4d1456389eb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 254px;
+}
+.f4d1456389eb .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d1456389eb .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d1456389eb .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d1456389eb .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Rectangle */
+.rectangle-f4d1456389e8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 444px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f4d143220654 {
+  position: absolute;
+  left: 24px;
+  top: 699px;
+  width: 444px;
+  height: 78px;
+}
+
+/* Group */
+.group-f4d143220657 {
+  position: absolute;
+  left: 12px;
+  top: 7px;
+  width: 420px;
+  height: 64px;
+}
+
+/* Group */
+.group-f4d14322065c {
+  position: absolute;
+  left: 356px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:box-fill */
+.iconamoon-f4d143220661 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-f4d143220661 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+/* svg-path */
+.svgpath-f4d143220662 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d143220662 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Ellipse */
+.ellipse-f4d143220660 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d14322065b {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4d14322065e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f4d14322065e {
+  position: absolute;
+  left: 13.82px;
+  top: 14.55px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+}
+
+/* svg-path */
+.svgpath-f4d14322065f > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d14322065f {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(1.00, 0.00, 0.00, -1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4d14322065d {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d143220656 {
+  position: absolute;
+  left: 95px;
+  top: 14.5px;
+  width: 254px;
+  height: 49px;
+}
+
+/* 2025/09/11 */
+.c-20250911-f4d14322065a {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 90px;
+}
+.c-20250911-f4d14322065a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-20250911-f4d14322065a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-20250911-f4d14322065a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.c-20250911-f4d14322065a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* حسن حسن محمد */
+.f4d143220659 {
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 154px;
+}
+.f4d143220659 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d143220659 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d143220659 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d143220659 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة حديد صلب 4 طن من صرمان */
+.f4d143220658 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 254px;
+}
+.f4d143220658 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d143220658 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d143220658 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d143220658 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Rectangle */
+.rectangle-f4d143220655 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 444px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* order_icon */
+.ordericon-f4d10b4ca6c3 {
+  position: absolute;
+  left: 392px;
+  top: 603px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* iconamoon:box-fill */
+.iconamoon-f4d0d55daa34 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.iconamoon-f4d0d55daa34 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+/* svg-path */
+.svgpath-f4d0d563939f > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d0d563939f {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Ellipse */
+.ellipse-f4d0c17dcdb4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border-radius: 50%;
+}
+
+/* checkorder_button_small */
+.checkorder-f4d0890a2eca {
+  position: absolute;
+  left: 36px;
+  top: 603px;
+  width: 64px;
+  height: 64px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4d0890a2ecc > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f4d0890a2ecc {
+  position: absolute;
+  left: 13.82px;
+  top: 14.55px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+}
+
+/* svg-path */
+.svgpath-f4d0890a2ecd > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4d0890a2ecd {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 36.36px;
+  height: 34.91px;
+  transform: matrix(1.00, 0.00, 0.00, -1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4d0890a2ecb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 64px;
+  height: 64px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Group */
+.group-f4d09e465582 {
+  position: absolute;
+  left: 119px;
+  top: 610.5px;
+  width: 254px;
+  height: 49px;
+}
+
+/* 2025/09/11 */
+.c-20250911-f4d0698be568 {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 90px;
+}
+.c-20250911-f4d0698be568 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-20250911-f4d0698be568 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-20250911-f4d0698be568 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.c-20250911-f4d0698be568 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* حسن حسن محمد */
+.f4d05ace2e51 {
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 154px;
+}
+.f4d05ace2e51 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d05ace2e51 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d05ace2e51 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d05ace2e51 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة حديد صلب 4 طن من صرمان */
+.f4d02ba0e450 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 254px;
+}
+.f4d02ba0e450 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4d02ba0e450 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4d02ba0e450 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4d02ba0e450 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* order_info_and_logo_placement */
+.orderinfo-f4cda3d7d5e2 {
+  position: absolute;
+  left: 24px;
+  top: 596px;
+  width: 444px;
+  height: 78px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* search_box */
+.searchbox-f4cfca43f6aa {
+  position: absolute;
+  left: 26px;
+  top: 515px;
+  width: 435px;
+  height: 60px;
+}
+
+/* mingcute:search-line */
+.mingcute-s-f4cfca43f6ae > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.mingcute-s-f4cfca43f6ae {
+  position: absolute;
+  left: 19px;
+  top: 16.5px;
+  width: 46.28px;
+  height: 29px;
+}
+
+/* svg-g */
+.svgg-f4cfca43f6af > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f4cfca43f6af {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 46.28px;
+  height: 29px;
+}
+
+/* svg-path */
+.svgpath-f4cfca43f6b1 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4cfca43f6b1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 25px;
+  height: 25.4px;
+}
+
+/* svg-path */
+.svgpath-f4cfca43f6b0 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4cfca43f6b0 {
+  position: absolute;
+  left: 45.18px;
+  top: 28.11px;
+  width: 1.09px;
+  height: 0.89px;
+}
+
+/* ابحث عن طلبية */
+.f4cfca43f6ad {
+  position: absolute;
+  left: 131px;
+  top: 19px;
+  width: 287px;
+}
+.f4cfca43f6ad .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cfca43f6ad .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cfca43f6ad .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f4cfca43f6ad .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Ellipse */
+.ellipse-f4cfca43f6ac {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(to bottom, rgba(72, 33, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 50%;
+}
+
+/* Rectangle */
+.rectangle-f4cfca43f6ab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 435px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* from_to_dots */
+.fromtodo-feeecedb792b {
+  position: absolute;
+  left: 46px;
+  top: 254.5px;
+  width: 16px;
+  height: 82px;
+}
+
+/* Ellipse */
+.ellipse-f4ce8455f62c {
+  position: absolute;
+  left: 4.5px;
+  top: 54.75px;
+  width: 7px;
+  height: 7px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Ellipse */
+.ellipse-f4ce826d2791 {
+  position: absolute;
+  left: 4.5px;
+  top: 40px;
+  width: 7px;
+  height: 7px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Ellipse */
+.ellipse-f4ce615596c0 {
+  position: absolute;
+  left: 4.5px;
+  top: 25.25px;
+  width: 7px;
+  height: 7px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Ellipse */
+.ellipse-f4ce868dea76 {
+  position: absolute;
+  left: 0px;
+  top: 66px;
+  width: 16px;
+  height: 16px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* Ellipse */
+.ellipse-f4ce561a1bf8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* الكريمية، طرابلس */
+.f4cecb1f9a31 {
+  position: absolute;
+  left: 69px;
+  top: 317px;
+  height: 23px;
+}
+.f4cecb1f9a31 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cecb1f9a31 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cecb1f9a31 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+.f4cecb1f9a31 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* عين زارة، طرابلس */
+.f4cea64176e2 {
+  position: absolute;
+  left: 69px;
+  top: 251px;
+  height: 23px;
+}
+.f4cea64176e2 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cea64176e2 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cea64176e2 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+.f4cea64176e2 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* checkorder_button */
+.checkorder-f4ce08c38f8d {
+  position: absolute;
+  left: 370px;
+  top: 250.5px;
+  width: 74px;
+  height: 74px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f4cdf117c2b6 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(9.094947017729282e-13px,-9.094947017729282e-13px);
+}
+.ic-rounda-f4cdf117c2b6 {
+  position: absolute;
+  left: 15.98px;
+  top: 16.82px;
+  width: 42.05px;
+  height: 40.36px;
+}
+
+/* svg-path */
+.svgpath-f4cdf117c2b7 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(9.094947017729282e-13px,-9.094947017729282e-13px);
+}
+.svgpath-f4cdf117c2b7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 42.05px;
+  height: 40.36px;
+  transform: matrix(-1.00, 0.00, 0.00, 1.00, 0.00, -0.00);
+}
+
+/* Ellipse */
+.ellipse-f4cdd5a7fd32 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 74px;
+  height: 74px;
+  background: #ffffffFF;
+  border-radius: 50%;
+}
+
+/* رقم الطلبية: 55546
+معرف العملية: 441-04 */
+.f4ce20a87bcd {
+  position: absolute;
+  left: 46px;
+  top: 353px;
+  width: 156px;
+}
+.f4ce20a87bcd .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4ce20a87bcd .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4ce20a87bcd .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+.f4ce20a87bcd .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+.f4ce20a87bcd .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+.f4ce20a87bcd .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* الزبون: أسامة الساعدي
+التاريخ: 2025/10/15 */
+.f4cca5139449 {
+  position: absolute;
+  left: 288px;
+  top: 353px;
+  width: 156px;
+}
+.f4cca5139449 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cca5139449 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cca5139449 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: justify;
+}
+.f4cca5139449 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+.f4cca5139449 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: justify;
+}
+.f4cca5139449 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* نقل مادة رخام
+متابعة الطلبية */
+.f4ce2decaa32 {
+  position: absolute;
+  left: 210px;
+  top: 257.5px;
+  width: 143px;
+}
+.f4ce2decaa32 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4ce2decaa32 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4ce2decaa32 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: justify;
+}
+.f4ce2decaa32 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+}
+.f4ce2decaa32 .root-0-paragraph-set-0-paragraph-1 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: justify;
+}
+.f4ce2decaa32 .root-0-paragraph-set-0-paragraph-1-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* order_overview_box */
+.orderover-f4cca5139416 {
+  position: absolute;
+  left: 24px;
+  top: 231px;
+  width: 444px;
+  height: 181px;
+  background: linear-gradient(to bottom, rgba(89, 41, 1, 1) 0%,rgba(176, 107, 49, 1) 100%);
+  border: 1.5px solid #b7b7b7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* الطلبيات الناجحة */
+.f4cfd63abccc {
+  position: absolute;
+  left: 135px;
+  top: 465px;
+  width: 320px;
+}
+.f4cfd63abccc .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cfd63abccc .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cfd63abccc .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4cfd63abccc .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* الطلبيات الحالية */
+.f4cd29c901b1 {
+  position: absolute;
+  left: 135px;
+  top: 184px;
+  width: 320px;
+}
+.f4cd29c901b1 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cd29c901b1 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cd29c901b1 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.5;
+  margin: 0;
+  text-align: right;
+}
+.f4cd29c901b1 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Path */
+.path-f4cf4aa28c88 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.path-f4cf4aa28c88 {
+  position: absolute;
+  left: 33.88px;
+  top: 454px;
+  width: 418.25px;
+  height: 0.01px;
+  opacity: 0.5;
+}
+
+/* Path */
+.path-f4cca513941d > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.path-f4cca513941d {
+  position: absolute;
+  left: 33.88px;
+  top: 169px;
+  width: 418.25px;
+  height: 0.01px;
+  opacity: 0.5;
+}
+
+/* الطلبيات */
+.f4cca5139419 {
+  position: absolute;
+  left: 194.5px;
+  top: 124px;
+  height: 29px;
+}
+.f4cca5139419 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f4cca5139419 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f4cca5139419 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f4cca5139419 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* svg */
+.svg-f4cca5139414 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svg-f4cca5139414 {
+  position: absolute;
+  left: 84px;
+  top: -5644px;
+  width: 53px;
+  height: 53px;
+}
+
+/* svg-path */
+.svgpath-f4cca5139430 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4cca5139430 {
+  position: absolute;
+  left: 8.83px;
+  top: 7.73px;
+  width: 35.33px;
+  height: 38.65px;
+}
+
+/* base-background */
+.basebackg-f4cca513942f > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.basebackg-f4cca513942f {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 53px;
+  height: 53px;
+  border-radius: 0px 0px 0px 0px;
+  display: none;
+}
+
+/* background */
+.background-feee19ce75a0 {
+  position: absolute;
+  left: -182px;
+  top: -340px;
+  width: 847.5px;
+  height: 1435px;
+}
+
+/* Group */
+.group-f4cca513940f > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f4cca513940f {
+  position: absolute;
+  left: 2.5px;
+  top: 1159px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Group */
+.group-f4cca513940e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f4cca513940e {
+  position: absolute;
+  left: 0px;
+  top: 412px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Rectangle */
+.rectangle-f4cca513940d {
+  position: absolute;
+  left: 182px;
+  top: 445px;
+  width: 486px;
+  height: 990px;
+  background: #ffffffFF;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 4px 4px 50px 7px #00000080;
+}
+
+/* logo_blured */
+.logoblure-f4cca513940c {
+  position: absolute;
+  left: 158.5px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+  opacity: 0.15;
+}
+
+/* svg-path */
+.svgpath-f4cca513942a > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4cca513942a {
+  position: absolute;
+  left: 32.86px;
+  top: 330.86px;
+  width: 467.22px;
+  height: 333.61px;
+}
+
+/* svg-path */
+.svgpath-f4cca5139429 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f4cca5139429 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+}
+
+/* svg-path */
+.svgpath-f4cca5139428 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(4.547473508864641e-13px,0px);
+}
+.svgpath-f4cca5139428 {
+  position: absolute;
+  left: 151.18px;
+  top: 86.78px;
+  width: 228.43px;
+  height: 227.7px;
+}
+
+/* Rectangle */
+.rectangle-f4cca513940b {
+  position: absolute;
+  left: 160px;
+  top: 335px;
+  width: 530px;
+  height: 475px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 0px 0px 0px 0px;
+}

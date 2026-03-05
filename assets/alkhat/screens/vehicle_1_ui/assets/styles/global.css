@@ -1,0 +1,1709 @@
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1biLD-H.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a13iLD-H.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1PiLA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* vehicle_1_ui */
+.vehicle1-f25457205db7 {
+  position: relative;
+  width: 486px;
+  height: 1080px;
+  background: #FFFFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* 3rd_vech */
+.c-3rdvech-f262b0b205ce {
+  position: absolute;
+  left: 66px;
+  top: 898px;
+  width: 354px;
+  height: 12px;
+}
+
+/* Rectangle */
+.rectangle-f262b0b2406a {
+  position: absolute;
+  left: 304px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f262b0b24069 {
+  position: absolute;
+  left: 243.2px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f262b0b24068 {
+  position: absolute;
+  left: 182.4px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f262b0b205d1 {
+  position: absolute;
+  left: 60.8px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  transform: matrix(-1.00, 0.00, 0.00, -1.00, 0.00, 0.00);
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f262b0b205d0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  transform: matrix(-1.00, 0.00, -0.00, -1.00, -0.00, -0.00);
+  background: linear-gradient(to bottom, rgba(125, 94, 39, 1) 0%,rgba(78, 61, 26, 0) 100%);
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Rectangle */
+.rectangle-f262b0b205cf {
+  position: absolute;
+  left: 121.6px;
+  top: 0px;
+  width: 50px;
+  height: 12px;
+  background: #aa652bFF;
+  border-radius: 80px 80px 80px 80px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* bi:truck-flatbed */
+.bi-truckf-f25bb58c3485 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-32px,-32px);
+}
+.bi-truckf-f25bb58c3485 {
+  position: absolute;
+  left: 176px;
+  top: 99px;
+  width: 134px;
+  height: 84px;
+}
+
+/* svg-path */
+.svgpath-f25bb593312b > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f25bb593312b {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 134px;
+  height: 84px;
+}
+
+/* no_choice */
+.nochoice-f2572a24615f {
+  position: absolute;
+  left: 109px;
+  top: 384px;
+  width: 116px;
+  height: 42px;
+}
+
+/* svg-g */
+.svgg-f2572a246166 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f2572a246166 {
+  position: absolute;
+  left: 81.54px;
+  top: 9.24px;
+  width: 22.7px;
+  height: 22.68px;
+}
+
+/* svg-path */
+.svgpath-f2572a246167 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f2572a246167 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22.7px;
+  height: 22.68px;
+}
+
+/* لا */
+.f2572a246165 {
+  position: absolute;
+  left: 1.68px;
+  top: 8.4px;
+  width: 71.45px;
+  height: 24.36px;
+}
+.f2572a246165 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2572a246165 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2572a246165 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2572a246165 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Rectangle */
+.rectangle-f2572a246164 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 116px;
+  height: 42px;
+  background: #ffffffFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 4px 3px #00000033;
+}
+
+/* yes_choice */
+.yeschoice-f2572a24615e {
+  position: absolute;
+  left: 261px;
+  top: 384px;
+  width: 116px;
+  height: 42px;
+}
+
+/* svg-g */
+.svgg-f2572a246162 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-f2572a246162 {
+  position: absolute;
+  left: 81.54px;
+  top: 9.24px;
+  width: 22.7px;
+  height: 22.68px;
+}
+
+/* svg-path */
+.svgpath-f2572a246163 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f2572a246163 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22.7px;
+  height: 22.68px;
+}
+
+/* نعم */
+.f2572a246161 {
+  position: absolute;
+  left: 1.68px;
+  top: 8.4px;
+  width: 71.45px;
+  height: 24.36px;
+}
+.f2572a246161 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2572a246161 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2572a246161 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2572a246161 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Rectangle */
+.rectangle-f2572a246160 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 116px;
+  height: 42px;
+  background: #ffffffFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 4px 3px #00000033;
+}
+
+/* هل المركبة مسجلة بإسمك؟ */
+.f2572a24615d {
+  position: absolute;
+  left: 31.5px;
+  top: 332px;
+  width: 423px;
+}
+.f2572a24615d .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2572a24615d .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2572a24615d .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+}
+.f2572a24615d .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* وضح الأسباب */
+.f25457205de6 {
+  position: absolute;
+  left: 46px;
+  top: 489px;
+  width: 395px;
+  height: 59px;
+  opacity: 0.5;
+}
+.f25457205de6 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205de6 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205de6 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205de6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(78, 78, 78, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(78, 78, 78, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* mentionreason_typeinput */
+.mentionrea-f25457205de5 {
+  position: absolute;
+  left: 30px;
+  top: 473px;
+  width: 426px;
+  height: 83px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* في حالة الإجابة بـ "لا"، أذكر السبب */
+.f25457205de4 {
+  position: absolute;
+  left: 31px;
+  top: 441px;
+  width: 422px;
+}
+.f25457205de4 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205de4 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205de4 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205de4 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* حدد الحمولة */
+.f2590e7a2cf1 {
+  position: absolute;
+  left: 22px;
+  top: 831px;
+  width: 213px;
+}
+.f2590e7a2cf1 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2590e7a2cf1 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2590e7a2cf1 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2590e7a2cf1 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* choicetheweghit */
+.choicethew-fee028876ad0 {
+  position: absolute;
+  left: 31px;
+  top: 815px;
+  width: 220px;
+  height: 60px;
+}
+
+/* mi:select */
+.mi-select-f2590e7a2cf2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.mi-select-f2590e7a2cf2 {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  width: 17px;
+  height: 26px;
+}
+
+/* svg-path */
+.svgpath-f2590e7a2cf3 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f2590e7a2cf3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 17px;
+  height: 26px;
+}
+
+/* Rectangle */
+.rectangle-f2590e7a2cf0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 220px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* الحمولة القصوى (اختياري) */
+.f2590e7a2cef {
+  position: absolute;
+  left: 22px;
+  top: 772px;
+  width: 226px;
+}
+.f2590e7a2cef .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2590e7a2cef .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2590e7a2cef .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2590e7a2cef .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f2590e7a2cef .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Group */
+.group-f2590e7a2cea {
+  position: absolute;
+  left: 251px;
+  top: 772px;
+  width: 213px;
+  height: 103px;
+}
+
+/* أدخل رقم المقطورة */
+.f2590e7a2ced {
+  position: absolute;
+  left: 0px;
+  top: 59px;
+  width: 198px;
+  opacity: 0.5;
+}
+.f2590e7a2ced .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2590e7a2ced .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2590e7a2ced .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2590e7a2ced .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(78, 78, 78, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(78, 78, 78, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* trucknumb_typeinput */
+.trucknumb-f2590e7a2cec {
+  position: absolute;
+  left: 32px;
+  top: 43px;
+  width: 181px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* رقم المقطورة (مطلوب) */
+.f2590e7a2ceb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 210px;
+}
+.f2590e7a2ceb .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2590e7a2ceb .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2590e7a2ceb .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2590e7a2ceb .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f2590e7a2ceb .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* حدد نوع المركبة */
+.f25457205dbe {
+  position: absolute;
+  left: 22px;
+  top: 710.33px;
+  width: 213px;
+}
+.f25457205dbe .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dbe .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dbe .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205dbe .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* نوع المركبة (مطلوب) */
+.f25457205dbc {
+  position: absolute;
+  left: 22px;
+  top: 651.33px;
+  width: 226px;
+}
+.f25457205dbc .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dbc .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dbc .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205dbc .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f25457205dbc .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* chosevechtype_list */
+.chosevecht-fedfdc03835a {
+  position: absolute;
+  left: 31px;
+  top: 694.33px;
+  width: 220px;
+  height: 60px;
+}
+
+/* mi:select */
+.mi-select-f25457205dcc > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.mi-select-f25457205dcc {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  width: 17px;
+  height: 26px;
+}
+
+/* svg-path */
+.svgpath-f25457205dea > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f25457205dea {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 17px;
+  height: 26px;
+}
+
+/* Rectangle */
+.rectangle-f25457205dbd {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 220px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f25457205dbb {
+  position: absolute;
+  left: 251px;
+  top: 651.33px;
+  width: 213px;
+  height: 103px;
+}
+
+/* أدخل رقم اللوحة */
+.f25457205dd2 {
+  position: absolute;
+  left: 0px;
+  top: 59px;
+  width: 198px;
+  opacity: 0.5;
+}
+.f25457205dd2 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dd2 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dd2 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205dd2 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(78, 78, 78, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(78, 78, 78, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* licplate_typeinput */
+.licplatet-f25457205dd1 {
+  position: absolute;
+  left: 32px;
+  top: 43px;
+  width: 181px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* رقم اللوحة (مطلوب) */
+.f25457205dd0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 210px;
+}
+.f25457205dd0 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dd0 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dd0 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f25457205dd0 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+.f25457205dd0 .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ic:round-arrow-back */
+.ic-rounda-f25457205dc8 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.ic-rounda-f25457205dc8 {
+  position: absolute;
+  left: 423.5px;
+  top: 20px;
+  width: 42px;
+  height: 41px;
+}
+
+/* svg-path */
+.svgpath-f25457205dd8 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f25457205dd8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 42px;
+  height: 41px;
+  transform: matrix(-1.00, 0.00, 0.00, 1.00, 0.00, 0.00);
+}
+
+/* أدخل معلومات المركبة للمتابعة */
+.f25457205dc7 {
+  position: absolute;
+  left: 66.5px;
+  top: 206px;
+  height: 29px;
+}
+.f25457205dc7 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dc7 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dc7 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f25457205dc7 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* معلومات المركبة */
+.f25457205dc6 {
+  position: absolute;
+  left: 146px;
+  top: 26px;
+  height: 29px;
+}
+.f25457205dc6 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dc6 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dc6 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f25457205dc6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Vehicle */
+.vehicle-f25457205dc5 {
+  position: absolute;
+  left: 112px;
+  top: 241px;
+  width: 262px;
+}
+.vehicle-f25457205dc5 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.vehicle-f25457205dc5 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.vehicle-f25457205dc5 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.vehicle-f25457205dc5 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* next */
+.next-fee0ec8db746 {
+  position: absolute;
+  left: 30px;
+  top: 932px;
+  width: 426px;
+  height: 68px;
+}
+
+/* المتابعة */
+.f25457205dc1 {
+  position: absolute;
+  left: 156px;
+  top: 15px;
+  height: 36px;
+  box-shadow: ;
+}
+.f25457205dc1 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f25457205dc1 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f25457205dc1 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.f25457205dc1 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 30px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Rectangle */
+.rectangle-f25457205dc0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 426px;
+  height: 68px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* Group */
+.group-f25a46a6b209 {
+  position: absolute;
+  left: 26.5px;
+  top: 573.67px;
+  width: 433px;
+  height: 60px;
+}
+
+/* Group */
+.group-f2599e2944d1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 220px;
+  height: 60px;
+  box-shadow: 4px 4px 4px 0px #00000033;
+}
+
+/* أدخل اسم المركبة */
+.f2599e2944d8 {
+  position: absolute;
+  left: 1px;
+  top: 16px;
+  width: 207px;
+  opacity: 0.5;
+}
+.f2599e2944d8 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2599e2944d8 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2599e2944d8 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2599e2944d8 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(78, 78, 78, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(78, 78, 78, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* mentionvech_typeinput */
+.mentionvec-f2599e2944d7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 220px;
+  height: 60px;
+  background: #ffffffFF;
+  border: 1.5px solid #4e4e4eFF;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* اسم المركبة (إن وجد) */
+.f2599e2944cf {
+  position: absolute;
+  left: 232px;
+  top: 16px;
+  width: 201px;
+}
+.f2599e2944cf .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.f2599e2944cf .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.f2599e2944cf .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: right;
+}
+.f2599e2944cf .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(170, 102, 44, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(170, 102, 44, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f2599e2944cf .root-0-paragraph-set-0-paragraph-0-text-1 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+.f2599e2944cf .root-0-paragraph-set-0-paragraph-0-text-2 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* background */
+.background-f54847133c06 {
+  position: absolute;
+  left: -179px;
+  top: -355px;
+  width: 845px;
+  height: 1455px;
+}
+
+/* Group */
+.group-f25457205dc4 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f25457205dc4 {
+  position: absolute;
+  left: 0px;
+  top: 1160px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Group */
+.group-f25457205dc3 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-160px,-160px);
+}
+.group-f25457205dc3 {
+  position: absolute;
+  left: 0px;
+  top: 413px;
+  width: 845px;
+  height: 215px;
+  opacity: 0.3;
+}
+
+/* Rectangle */
+.rectangle-f25457205dba {
+  position: absolute;
+  left: 179px;
+  top: 659px;
+  width: 486px;
+  height: 796px;
+  background: #ffffffFF;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 4px 4px 50px 7px #00000080;
+}
+
+/* logo_blured */
+.logoblure-f25457205db9 {
+  position: absolute;
+  left: 155.5px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+  opacity: 0.15;
+}
+
+/* svg-path */
+.svgpath-f25457205dcf > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f25457205dcf {
+  position: absolute;
+  left: 32.86px;
+  top: 330.86px;
+  width: 467.22px;
+  height: 333.61px;
+}
+
+/* svg-path */
+.svgpath-f25457205dce > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-f25457205dce {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 533px;
+  height: 699px;
+}
+
+/* svg-path */
+.svgpath-f25457205dcd > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(4.547473508864641e-13px,0px);
+}
+.svgpath-f25457205dcd {
+  position: absolute;
+  left: 151.18px;
+  top: 86.78px;
+  width: 228.43px;
+  height: 227.7px;
+}
+
+/* Rectangle */
+.rectangle-f25457205db8 {
+  position: absolute;
+  left: 157px;
+  top: 335px;
+  width: 530px;
+  height: 475px;
+  background: linear-gradient(to bottom, rgba(72, 34, 0, 1) 0%,rgba(170, 101, 43, 1) 100%);
+  border-radius: 0px 0px 0px 0px;
+}
