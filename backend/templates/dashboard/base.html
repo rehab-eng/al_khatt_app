@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}لوحة تحكم الخَطّ{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --alkhat-bg: #fffdf7;
+      --alkhat-accent: #d4af37;
+      --alkhat-muted: #64748b;
+      --alkhat-card: #ffffff;
+      --alkhat-border: #e8d9a3;
+      --alkhat-text: #1f2a37;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fffdf8 0%, #fff8ea 48%, #fffdf5 100%);
+      color: var(--alkhat-text);
+      min-height: 100vh;
+      font-family: "Cairo", "Segoe UI", sans-serif;
+    }
+
+    .sidebar {
+      background: #fffbef;
+      border-right: 1px solid var(--alkhat-border);
+      min-height: 100vh;
+    }
+
+    .sidebar .nav-link {
+      color: #334155;
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+      margin-bottom: 0.25rem;
+      text-align: right;
+    }
+
+    .sidebar .nav-link.active,
+    .sidebar .nav-link:hover {
+      background: rgba(212, 175, 55, 0.18);
+      color: #8f6c12;
+    }
+
+    .topbar {
+      background: rgba(255, 251, 239, 0.86);
+      border-bottom: 1px solid var(--alkhat-border);
+    }
+
+    .stat-card {
+      background: var(--alkhat-card);
+      border: 1px solid var(--alkhat-border);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 24px rgba(31, 42, 55, 0.08);
+    }
+
+    .badge-soft {
+      background: rgba(212, 175, 55, 0.18);
+      color: #8f6c12;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      border: 1px solid var(--alkhat-border);
+    }
+
+    .table-modern {
+      background: #fffef8;
+      border-radius: 1rem;
+      overflow: hidden;
+      border: 1px solid var(--alkhat-border);
+    }
+
+    .table-modern thead {
+      background: #f8eed0;
+    }
+
+    .table-modern tbody tr {
+      border-color: #efe5c4;
+    }
+
+    .table-modern .table,
+    .table-modern .table-dark {
+      --bs-table-bg: transparent;
+      --bs-table-color: var(--alkhat-text);
+      --bs-table-striped-bg: #fff8ea;
+      --bs-table-striped-color: var(--alkhat-text);
+      --bs-table-hover-bg: #fff4d9;
+      --bs-table-hover-color: var(--alkhat-text);
+      --bs-table-border-color: #efe5c4;
+    }
+
+    .page-title {
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-12 col-lg-2 sidebar py-4 px-3">
+        <div class="d-flex align-items-center mb-4">
+          <div class="rounded-circle bg-success" style="width: 12px; height: 12px;"></div>
+          <span class="ms-2 fw-semibold">إدارة الخَطّ</span>
+        </div>
+        <nav class="nav flex-column">
+          <a class="nav-link {% if active_page == 'dashboard' %}active{% endif %}" href="{% url 'dashboard-index' %}">نظرة عامة</a>
+          <a class="nav-link {% if active_page == 'approvals' %}active{% endif %}" href="{% url 'dashboard-approvals' %}">الموافقات</a>
+          <a class="nav-link {% if active_page == 'users' %}active{% endif %}" href="{% url 'dashboard-users' %}">إدارة المستخدمين</a>
+          <a class="nav-link {% if active_page == 'orders' %}active{% endif %}" href="{% url 'dashboard-orders' %}">الطلبات واللوجستيات</a>
+          <a class="nav-link {% if active_page == 'quarries' %}active{% endif %}" href="{% url 'dashboard-quarries' %}">إدارة الكسارات</a>
+          <a class="nav-link {% if active_page == 'finance' %}active{% endif %}" href="{% url 'dashboard-finance' %}">المحافظ والمالية</a>
+          <a class="nav-link {% if active_page == 'fleet' %}active{% endif %}" href="{% url 'dashboard-fleet' %}">الأسطول والمركبات</a>
+          <a class="nav-link {% if active_page == 'settings' %}active{% endif %}" href="{% url 'dashboard-settings' %}">إعدادات النظام</a>
+        </nav>
+      </aside>
+      <main class="col-12 col-lg-10 px-0">
+        <header class="topbar px-4 py-3 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
+          <div>
+            <div class="small text-secondary">لوحة الإدارة المخصصة</div>
+            <div class="h4 mb-0 page-title">{% block page_title %}نظرة عامة{% endblock %}</div>
+          </div>
+          <div class="d-flex align-items-center gap-3 mt-3 mt-md-0">
+            <span class="badge-soft">متصل</span>
+            <div class="text-end">
+              <div class="fw-semibold">مشرف النظام</div>
+              <div class="small text-secondary">admin@alkhat.ly</div>
+            </div>
+          </div>
+        </header>
+        <section class="px-4 py-4">
+          {% block content %}{% endblock %}
+        </section>
+      </main>
+    </div>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
