@@ -1,4 +1,4 @@
-{% load static %}
+﻿{% load static %}
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -8,22 +8,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <style>
     :root {
       --alkhat-bg: #fffdf7;
       --alkhat-accent: #d4af37;
+      --alkhat-accent-deep: #8f6c12;
       --alkhat-muted: #64748b;
       --alkhat-card: #ffffff;
+      --alkhat-card-alt: #fffaf0;
       --alkhat-border: #e8d9a3;
       --alkhat-text: #1f2a37;
+      --alkhat-danger: #f43f5e;
+      --alkhat-success: #16a34a;
     }
 
     body {
-      background: linear-gradient(135deg, #fffdf8 0%, #fff8ea 48%, #fffdf5 100%);
+      margin: 0;
+      background:
+        radial-gradient(circle at 10% 8%, rgba(212, 175, 55, 0.13), transparent 32%),
+        radial-gradient(circle at 92% 90%, rgba(212, 175, 55, 0.11), transparent 36%),
+        linear-gradient(135deg, #fffdf8 0%, #fff8ea 48%, #fffdf5 100%);
       color: var(--alkhat-text);
       min-height: 100vh;
       font-family: "Cairo", "Segoe UI", sans-serif;
@@ -33,47 +39,84 @@
       background: #fffbef;
       border-right: 1px solid var(--alkhat-border);
       min-height: 100vh;
+      box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.8);
     }
 
     .sidebar .nav-link {
       color: #334155;
-      padding: 0.75rem 1rem;
-      border-radius: 0.5rem;
-      margin-bottom: 0.25rem;
+      padding: 0.72rem 0.85rem;
+      border-radius: 0.75rem;
+      margin-bottom: 0.35rem;
       text-align: right;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      border: 1px solid transparent;
+      transition: all 220ms ease;
+    }
+
+    .sidebar .nav-link .nav-icon {
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #e8dcc0;
+      border-radius: 0.45rem;
+      background: #fffef9;
+      color: #6b7280;
+      flex-shrink: 0;
     }
 
     .sidebar .nav-link.active,
     .sidebar .nav-link:hover {
-      background: rgba(212, 175, 55, 0.18);
-      color: #8f6c12;
+      background: rgba(212, 175, 55, 0.16);
+      color: var(--alkhat-accent-deep);
+      border-color: #e8d9a3;
+    }
+
+    .sidebar .nav-link.active .nav-icon,
+    .sidebar .nav-link:hover .nav-icon {
+      color: var(--alkhat-accent-deep);
+      border-color: #d9be6f;
+      background: #fff6db;
     }
 
     .topbar {
       background: rgba(255, 251, 239, 0.86);
       border-bottom: 1px solid var(--alkhat-border);
+      backdrop-filter: blur(3px);
     }
 
     .stat-card {
       background: var(--alkhat-card);
       border: 1px solid var(--alkhat-border);
-      border-radius: 1rem;
-      padding: 1.5rem;
+      border-radius: 0.95rem;
+      padding: 1.2rem;
       box-shadow: 0 10px 24px rgba(31, 42, 55, 0.08);
+      transition: transform 220ms ease, box-shadow 220ms ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(31, 42, 55, 0.12);
     }
 
     .badge-soft {
       background: rgba(212, 175, 55, 0.18);
-      color: #8f6c12;
-      padding: 0.25rem 0.6rem;
+      color: var(--alkhat-accent-deep);
+      padding: 0.3rem 0.7rem;
       border-radius: 999px;
-      font-size: 0.75rem;
+      font-size: 0.76rem;
       border: 1px solid var(--alkhat-border);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
     }
 
     .table-modern {
       background: #fffef8;
-      border-radius: 1rem;
+      border-radius: 0.95rem;
       overflow: hidden;
       border: 1px solid var(--alkhat-border);
     }
@@ -95,30 +138,135 @@
       --bs-table-hover-bg: #fff4d9;
       --bs-table-hover-color: var(--alkhat-text);
       --bs-table-border-color: #efe5c4;
+      margin-bottom: 0;
+    }
+
+    .btn-success {
+      --bs-btn-bg: var(--alkhat-accent);
+      --bs-btn-border-color: var(--alkhat-accent);
+      --bs-btn-hover-bg: #c9a129;
+      --bs-btn-hover-border-color: #c9a129;
+      --bs-btn-color: #1f2a37;
+      --bs-btn-hover-color: #1f2a37;
+      font-weight: 700;
+    }
+
+    .btn-outline-light {
+      --bs-btn-color: var(--alkhat-accent-deep);
+      --bs-btn-border-color: var(--alkhat-border);
+      --bs-btn-hover-color: #1f2a37;
+      --bs-btn-hover-bg: #f8eed0;
+      --bs-btn-hover-border-color: #d9be6f;
+      font-weight: 600;
+    }
+
+    .btn-outline-warning {
+      --bs-btn-color: #9a6a00;
+      --bs-btn-border-color: #e4c76a;
+      --bs-btn-hover-color: #1f2a37;
+      --bs-btn-hover-bg: #f6d885;
+      --bs-btn-hover-border-color: #d4af37;
+      font-weight: 600;
+    }
+
+    .btn-outline-danger {
+      --bs-btn-color: #c0263d;
+      --bs-btn-border-color: #f5a3b1;
+      --bs-btn-hover-color: #ffffff;
+      --bs-btn-hover-bg: #e11d48;
+      --bs-btn-hover-border-color: #e11d48;
+      font-weight: 600;
+    }
+
+    .form-control,
+    .form-select {
+      border-color: #e9dcc1;
+      background: #fffef9;
+      color: var(--alkhat-text);
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+      border-color: #d4af37;
+      box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.2);
+    }
+
+    .badge.bg-success {
+      background-color: #daf5df !important;
+      color: #11612a !important;
+      border: 1px solid #9fddb0;
+    }
+
+    .badge.bg-warning {
+      background-color: #f9e8b6 !important;
+      color: #815807 !important;
+      border: 1px solid #e4c76a;
+    }
+
+    .badge.bg-info {
+      background-color: #e8edf7 !important;
+      color: #344155 !important;
+      border: 1px solid #c9d3e6;
+    }
+
+    .badge.bg-secondary {
+      background-color: #ecf0f5 !important;
+      color: #4b5563 !important;
+      border: 1px solid #d3dbe7;
     }
 
     .page-title {
-      font-weight: 600;
+      font-weight: 700;
+      color: #1f2a37;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 0.6rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff5d7;
+      border: 1px solid #d8bc66;
+      color: #8f6c12;
     }
   </style>
+  {% block extra_head %}{% endblock %}
 </head>
 <body>
   <div class="container-fluid">
     <div class="row">
       <aside class="col-12 col-lg-2 sidebar py-4 px-3">
         <div class="d-flex align-items-center mb-4">
-          <div class="rounded-circle bg-success" style="width: 12px; height: 12px;"></div>
+          <span class="brand-mark"><i class="bi bi-shield-check"></i></span>
           <span class="ms-2 fw-semibold">إدارة الخَطّ</span>
         </div>
         <nav class="nav flex-column">
-          <a class="nav-link {% if active_page == 'dashboard' %}active{% endif %}" href="{% url 'dashboard-index' %}">نظرة عامة</a>
-          <a class="nav-link {% if active_page == 'approvals' %}active{% endif %}" href="{% url 'dashboard-approvals' %}">الموافقات</a>
-          <a class="nav-link {% if active_page == 'users' %}active{% endif %}" href="{% url 'dashboard-users' %}">إدارة المستخدمين</a>
-          <a class="nav-link {% if active_page == 'orders' %}active{% endif %}" href="{% url 'dashboard-orders' %}">الطلبات واللوجستيات</a>
-          <a class="nav-link {% if active_page == 'quarries' %}active{% endif %}" href="{% url 'dashboard-quarries' %}">إدارة الكسارات</a>
-          <a class="nav-link {% if active_page == 'finance' %}active{% endif %}" href="{% url 'dashboard-finance' %}">المحافظ والمالية</a>
-          <a class="nav-link {% if active_page == 'fleet' %}active{% endif %}" href="{% url 'dashboard-fleet' %}">الأسطول والمركبات</a>
-          <a class="nav-link {% if active_page == 'settings' %}active{% endif %}" href="{% url 'dashboard-settings' %}">إعدادات النظام</a>
+          <a class="nav-link {% if active_page == 'dashboard' %}active{% endif %}" href="{% url 'dashboard-index' %}">
+            <span class="nav-icon"><i class="bi bi-grid-1x2-fill"></i></span><span>نظرة عامة</span>
+          </a>
+          <a class="nav-link {% if active_page == 'approvals' %}active{% endif %}" href="{% url 'dashboard-approvals' %}">
+            <span class="nav-icon"><i class="bi bi-check2-square"></i></span><span>الموافقات</span>
+          </a>
+          <a class="nav-link {% if active_page == 'users' %}active{% endif %}" href="{% url 'dashboard-users' %}">
+            <span class="nav-icon"><i class="bi bi-people-fill"></i></span><span>إدارة المستخدمين</span>
+          </a>
+          <a class="nav-link {% if active_page == 'orders' %}active{% endif %}" href="{% url 'dashboard-orders' %}">
+            <span class="nav-icon"><i class="bi bi-box-seam"></i></span><span>الطلبات واللوجستيات</span>
+          </a>
+          <a class="nav-link {% if active_page == 'quarries' %}active{% endif %}" href="{% url 'dashboard-quarries' %}">
+            <span class="nav-icon"><i class="bi bi-minecart-loaded"></i></span><span>إدارة الكسارات</span>
+          </a>
+          <a class="nav-link {% if active_page == 'finance' %}active{% endif %}" href="{% url 'dashboard-finance' %}">
+            <span class="nav-icon"><i class="bi bi-wallet2"></i></span><span>المحافظ والمالية</span>
+          </a>
+          <a class="nav-link {% if active_page == 'fleet' %}active{% endif %}" href="{% url 'dashboard-fleet' %}">
+            <span class="nav-icon"><i class="bi bi-truck"></i></span><span>الأسطول والمركبات</span>
+          </a>
+          <a class="nav-link {% if active_page == 'settings' %}active{% endif %}" href="{% url 'dashboard-settings' %}">
+            <span class="nav-icon"><i class="bi bi-sliders"></i></span><span>إعدادات النظام</span>
+          </a>
         </nav>
       </aside>
       <main class="col-12 col-lg-10 px-0">
@@ -128,7 +276,7 @@
             <div class="h4 mb-0 page-title">{% block page_title %}نظرة عامة{% endblock %}</div>
           </div>
           <div class="d-flex align-items-center gap-3 mt-3 mt-md-0">
-            <span class="badge-soft">متصل</span>
+            <span class="badge-soft"><i class="bi bi-wifi"></i>متصل</span>
             <div class="text-end">
               <div class="fw-semibold">مشرف النظام</div>
               <div class="small text-secondary">admin@alkhat.ly</div>
@@ -141,10 +289,6 @@
       </main>
     </div>
   </div>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

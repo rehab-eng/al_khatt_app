@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>تسجيل دخول الإدارة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --alkhat-accent: #d4af37;
+      --alkhat-accent-deep: #8f6c12;
+      --alkhat-border: #e8d9a3;
+      --alkhat-text: #1f2a37;
+      --alkhat-muted: #64748b;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 14% 10%, rgba(212, 175, 55, 0.16), transparent 32%),
+        radial-gradient(circle at 88% 88%, rgba(212, 175, 55, 0.12), transparent 34%),
+        linear-gradient(135deg, #fffdf8 0%, #fff8ea 48%, #fffdf5 100%);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      color: var(--alkhat-text);
+      font-family: "Cairo", "Segoe UI", sans-serif;
+    }
+
+    .login-card {
+      background: #ffffff;
+      border: 1px solid var(--alkhat-border);
+      border-radius: 1rem;
+      padding: 2rem;
+      width: min(430px, 92vw);
+      box-shadow: 0 16px 40px rgba(31, 42, 55, 0.12);
+    }
+
+    .brand-mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 0.7rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff5d7;
+      border: 1px solid #d8bc66;
+      color: var(--alkhat-accent-deep);
+      margin-bottom: 0.6rem;
+    }
+
+    .login-card h1 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    .form-control {
+      background: #fffef9;
+      border: 1px solid #e9dcc1;
+      color: var(--alkhat-text);
+    }
+
+    .form-control:focus {
+      border-color: var(--alkhat-accent);
+      box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.2);
+    }
+
+    .btn-success {
+      background: var(--alkhat-accent);
+      border: 1px solid var(--alkhat-accent);
+      color: #1f2a37;
+      font-weight: 700;
+    }
+
+    .btn-success:hover {
+      background: #c9a129;
+      border-color: #c9a129;
+      color: #1f2a37;
+    }
+
+    .small-muted {
+      color: var(--alkhat-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <div class="mb-4">
+      <span class="brand-mark"><i class="bi bi-shield-lock"></i></span>
+      <div class="small-muted">إدارة الخَطّ</div>
+      <h1>مرحبًا بعودتك</h1>
+      <p class="small-muted mb-0">سجّل الدخول لإدارة الموافقات والعمليات.</p>
+    </div>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">رقم الهاتف</label>
+        <input class="form-control" type="text" placeholder="+218 9xx xxx xxx" />
+      </div>
+      <div class="mb-4">
+        <label class="form-label">كلمة المرور</label>
+        <input class="form-control" type="password" placeholder="••••••••" />
+      </div>
+      <button class="btn btn-success w-100 py-2" type="button"><i class="bi bi-box-arrow-in-right ms-1"></i>تسجيل الدخول</button>
+    </form>
+    <div class="mt-4 small-muted">بحاجة إلى صلاحية؟ تواصل مع مشرف النظام.</div>
+  </div>
+</body>
+</html>
