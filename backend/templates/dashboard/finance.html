@@ -1,0 +1,95 @@
+﻿{% extends "dashboard/base.html" %}
+
+{% block title %}المحافظ والمالية{% endblock %}
+
+{% block page_title %}المحافظ والمالية{% endblock %}
+
+{% block content %}
+<div class="row g-4 mb-4">
+  <div class="col-12 col-md-3">
+    <div class="stat-card">
+      <div class="text-secondary small">عدد المحافظ</div>
+      <div class="display-6 fw-semibold">{{ wallet_count }}</div>
+      <div class="small text-secondary">إجمالي المستخدمين</div>
+      <div class="display-6 fw-semibold">{{ total_users }}</div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3">
+    <div class="stat-card">
+      <div class="text-secondary small">الأرصدة المتاحة</div>
+      <div class="display-6 fw-semibold">LYD {{ available_total|floatformat:2 }}</div>
+      <div class="small text-secondary">إجمالي المحافظ</div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3">
+    <div class="stat-card">
+      <div class="text-secondary small">رصيد الحجز</div>
+      <div class="display-6 fw-semibold">LYD {{ escrow_total|floatformat:2 }}</div>
+      <div class="small text-secondary">Escrow</div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3">
+    <div class="stat-card">
+      <div class="text-secondary small">عدد المعاملات</div>
+      <div class="display-6 fw-semibold">{{ tx_count }}</div>
+      <div class="small text-secondary">آخر 30 يوم</div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-4">
+  <div class="col-12 col-xl-8">
+    <div class="stat-card">
+      <h5 class="mb-3">آخر المعاملات</h5>
+      <div class="table-modern">
+        <table class="table table-dark table-borderless mb-0">
+          <thead>
+            <tr>
+              <th>المستخدم</th>
+              <th>المحفظة</th>
+              <th>المبلغ</th>
+              <th>النوع</th>
+              <th>التاريخ</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for tx in recent_transactions %}
+            <tr>
+              <td>{{ tx.wallet.owner.full_name|default:tx.wallet.owner.phone }}</td>
+              <td>{{ tx.wallet.currency }}</td>
+              <td>{{ tx.amount }}</td>
+              <td>{{ tx.get_type_display }}</td>
+              <td>{{ tx.created_at|date:"Y-m-d" }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="5" class="text-center text-secondary py-4">لا توجد معاملات بعد.</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-xl-4">
+    <div class="stat-card">
+      <h5 class="mb-3">طلبات السحب</h5>
+      <ul class="list-unstyled mb-0">
+        <li class="mb-3">
+          <div class="fw-semibold">طلب سحب رقم PR-120</div>
+          <div class="text-secondary small">بانتظار مراجعة المالية.</div>
+        </li>
+        <li class="mb-3">
+          <div class="fw-semibold">طلب سحب رقم PR-118</div>
+          <div class="text-secondary small">قيد التحقق من الوثائق.</div>
+        </li>
+        <li>
+          <div class="fw-semibold">طلب سحب رقم PR-115</div>
+          <div class="text-secondary small">تمت جدولة التحويل.</div>
+        </li>
+      </ul>
+      <button class="btn btn-outline-light mt-3" type="button">عرض كل الطلبات</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
