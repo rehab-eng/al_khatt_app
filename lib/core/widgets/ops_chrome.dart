@@ -32,10 +32,7 @@ class OpsBackground extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [
-                    Colors.transparent,
-                    AppColors.navyAlt.withAlpha(110),
-                  ],
+                  colors: [Colors.transparent, AppColors.gold.withAlpha(12)],
                 ),
               ),
             ),
@@ -89,8 +86,8 @@ class _OpsTopStripState extends State<OpsTopStrip> {
     return Container(
       height: 48,
       padding: const EdgeInsets.symmetric(horizontal: 14),
-      decoration: const BoxDecoration(
-        color: Color(0x8F0B1220),
+      decoration: BoxDecoration(
+        color: AppColors.surface.withAlpha(240),
         border: Border(bottom: BorderSide(color: AppColors.border)),
       ),
       child: Row(
@@ -134,7 +131,7 @@ class OpsSidebar extends StatelessWidget {
       width: 86,
       margin: const EdgeInsets.fromLTRB(12, 12, 0, 12),
       decoration: BoxDecoration(
-        color: AppColors.surface.withAlpha(230),
+        color: AppColors.surface.withAlpha(245),
         border: Border.all(color: AppColors.border),
         boxShadow: AppShadows.card,
       ),
@@ -177,7 +174,7 @@ class _StripBadge extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       decoration: BoxDecoration(
         border: Border.all(color: AppColors.border),
-        color: AppColors.navyAlt.withAlpha(180),
+        color: AppColors.surfaceElevated,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -187,7 +184,7 @@ class _StripBadge extends StatelessWidget {
           Text(
             label,
             style: Theme.of(context).textTheme.labelSmall?.copyWith(
-              color: AppColors.textSecondaryAlt,
+              color: AppColors.textPrimary,
               letterSpacing: 0.8,
             ),
           ),
@@ -211,9 +208,9 @@ class _SideIcon extends StatelessWidget {
         height: 48,
         decoration: BoxDecoration(
           border: Border.all(color: AppColors.border),
-          color: AppColors.navyAlt,
+          color: AppColors.surfaceElevated,
         ),
-        child: Icon(icon, color: AppColors.textSecondaryAlt, size: 22),
+        child: Icon(icon, color: AppColors.slate, size: 22),
       ),
     );
   }

@@ -4,29 +4,29 @@ import 'package:google_fonts/google_fonts.dart';
 class AppColors {
   static const gold = Color(0xFFD4AF37);
   static const sand = Color(0xFFF3E2A2);
-  static const navy = Color(0xFF0B121C);
-  static const navyAlt = Color(0xFF0B0F14);
-  static const slate = Color(0xFF1F2A37);
-  static const slateAlt = Color(0xFF0F172A);
-  static const textPrimary = Color(0xFFF8FAFC);
-  static const textSecondary = Color(0xFF94A3B8);
-  static const textSecondaryAlt = Color(0xFFA0AEC0);
+  static const navy = Color(0xFF1A2230);
+  static const navyAlt = Color(0xFF0F172A);
+  static const slate = Color(0xFF334155);
+  static const slateAlt = Color(0xFF1F2937);
+  static const textPrimary = Color(0xFF1F2A37);
+  static const textSecondary = Color(0xFF64748B);
+  static const textSecondaryAlt = Color(0xFF475569);
   static const success = Color(0xFF22C55E);
   static const danger = Color(0xFFF43F5E);
-  static const fieldFill = Color(0xFF0B1220);
-  static const surface = Color(0xFF0F172A);
-  static const surfaceElevated = Color(0xFF121C2B);
-  static const surfaceHover = Color(0xFF172233);
-  static const border = Color(0xFF1F2A37);
+  static const fieldFill = Color(0xFFFCFAF5);
+  static const surface = Color(0xFFFFFFFF);
+  static const surfaceElevated = Color(0xFFFFFCF2);
+  static const surfaceHover = Color(0xFFFAF5E6);
+  static const border = Color(0xFFE8DDB6);
 
   // Backward-compatible aliases.
   static const cocoa = navy;
   static const cocoaDark = navyAlt;
   static const cocoaDeep = navyAlt;
   static const goldDark = sand;
-  static const cream = surface;
+  static const cream = Color(0xFFFFFDF8);
   static const sheet = surfaceElevated;
-  static const glassFill = Color(0x330F172A);
+  static const glassFill = Color(0x7AFFFFFF);
   static const glassBorder = border;
   static const textOnDark = textPrimary;
   static const divider = border;
@@ -36,13 +36,13 @@ class AppGradients {
   static const background = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomCenter,
-    colors: [AppColors.navyAlt, AppColors.navy, AppColors.slateAlt],
+    colors: [Color(0xFFFFFDF8), Color(0xFFFFF8EA), Color(0xFFFFFDF5)],
   );
 
   static const header = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFF0F1B2B), AppColors.navy],
+    colors: [Color(0xFFFEF7E1), Color(0xFFF9E7B4)],
   );
 
   static const button = LinearGradient(
@@ -54,13 +54,13 @@ class AppGradients {
   static const glass = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xCC111827), Color(0xAA0F172A)],
+    colors: [Color(0xEFFFFFFF), Color(0xD9FFF8E8)],
   );
 }
 
 class AppShadows {
   static const card = [
-    BoxShadow(color: Color(0x40000000), blurRadius: 10, offset: Offset(0, 4)),
+    BoxShadow(color: Color(0x15000000), blurRadius: 8, offset: Offset(0, 3)),
   ];
 
   static const focus = [
@@ -70,19 +70,19 @@ class AppShadows {
 
 class AppTheme {
   static ThemeData build() {
-    final base = ThemeData(useMaterial3: true, brightness: Brightness.dark);
+    final base = ThemeData(useMaterial3: true, brightness: Brightness.light);
     final textTheme = _buildTextTheme(base.textTheme);
 
     return base.copyWith(
       scaffoldBackgroundColor: Colors.transparent,
       fontFamily: 'Cairo',
-      colorScheme: const ColorScheme.dark(
+      colorScheme: const ColorScheme.light(
         primary: AppColors.gold,
         secondary: AppColors.sand,
         surface: AppColors.surface,
         error: AppColors.danger,
-        onPrimary: AppColors.navyAlt,
-        onSecondary: AppColors.navyAlt,
+        onPrimary: AppColors.navy,
+        onSecondary: AppColors.navy,
         onSurface: AppColors.textPrimary,
       ),
       textTheme: textTheme,
@@ -156,7 +156,7 @@ class AppTheme {
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColors.gold,
           foregroundColor: AppColors.navyAlt,
-          disabledBackgroundColor: AppColors.slate,
+          disabledBackgroundColor: Color(0xFFE5E7EB),
           disabledForegroundColor: AppColors.textSecondary,
           textStyle: textTheme.labelLarge?.copyWith(color: AppColors.navyAlt),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
@@ -180,7 +180,7 @@ class AppTheme {
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       ),
       dataTableTheme: DataTableThemeData(
-        headingRowColor: const MaterialStatePropertyAll(AppColors.slate),
+        headingRowColor: const MaterialStatePropertyAll(Color(0xFFF8EFCF)),
         headingTextStyle: textTheme.labelSmall?.copyWith(
           color: AppColors.textSecondaryAlt,
           fontWeight: FontWeight.w700,
